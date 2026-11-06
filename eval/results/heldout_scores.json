@@ -1,0 +1,536 @@
+{
+ "summary": {
+  "overall": {
+   "n": 44,
+   "accuracy": 0.977,
+   "correct": 43,
+   "wrong": 1,
+   "false_abstain": 0,
+   "hallucination": 0,
+   "evidence_precision": 0.974,
+   "evidence_recall": 0.974
+  },
+  "by_tier": {
+   "core": {
+    "n": 16,
+    "accuracy": 1.0,
+    "correct": 16,
+    "wrong": 0,
+    "false_abstain": 0,
+    "hallucination": 0,
+    "evidence_precision": 1.0,
+    "evidence_recall": 1.0
+   },
+   "extended": {
+    "n": 18,
+    "accuracy": 1.0,
+    "correct": 18,
+    "wrong": 0,
+    "false_abstain": 0,
+    "hallucination": 0,
+    "evidence_precision": 1.0,
+    "evidence_recall": 1.0
+   },
+   "stretch": {
+    "n": 10,
+    "accuracy": 0.9,
+    "correct": 9,
+    "wrong": 1,
+    "false_abstain": 0,
+    "hallucination": 0,
+    "evidence_precision": 0.889,
+    "evidence_recall": 0.889
+   }
+  },
+  "by_kind": {
+   "after_break": {
+    "n": 3,
+    "accuracy": 1.0,
+    "correct": 3,
+    "wrong": 0,
+    "false_abstain": 0,
+    "hallucination": 0,
+    "evidence_precision": 1.0,
+    "evidence_recall": 1.0
+   },
+   "comeback": {
+    "n": 3,
+    "accuracy": 0.667,
+    "correct": 2,
+    "wrong": 1,
+    "false_abstain": 0,
+    "hallucination": 0,
+    "evidence_precision": 0.667,
+    "evidence_recall": 0.667
+   },
+   "extreme_margin": {
+    "n": 3,
+    "accuracy": 1.0,
+    "correct": 3,
+    "wrong": 0,
+    "false_abstain": 0,
+    "hallucination": 0,
+    "evidence_precision": 1.0,
+    "evidence_recall": 1.0
+   },
+   "game_result": {
+    "n": 4,
+    "accuracy": 1.0,
+    "correct": 4,
+    "wrong": 0,
+    "false_abstain": 0,
+    "hallucination": 0,
+    "evidence_precision": 1.0,
+    "evidence_recall": 1.0
+   },
+   "go_ahead": {
+    "n": 3,
+    "accuracy": 1.0,
+    "correct": 3,
+    "wrong": 0,
+    "false_abstain": 0,
+    "hallucination": 0,
+    "evidence_precision": 1.0,
+    "evidence_recall": 1.0
+   },
+   "month_total": {
+    "n": 3,
+    "accuracy": 1.0,
+    "correct": 3,
+    "wrong": 0,
+    "false_abstain": 0,
+    "hallucination": 0,
+    "evidence_precision": 1.0,
+    "evidence_recall": 1.0
+   },
+   "opener_points": {
+    "n": 4,
+    "accuracy": 1.0,
+    "correct": 4,
+    "wrong": 0,
+    "false_abstain": 0,
+    "hallucination": 0,
+    "evidence_precision": 1.0,
+    "evidence_recall": 1.0
+   },
+   "player_game_stat": {
+    "n": 5,
+    "accuracy": 1.0,
+    "correct": 5,
+    "wrong": 0,
+    "false_abstain": 0,
+    "hallucination": 0,
+    "evidence_precision": 1.0,
+    "evidence_recall": 1.0
+   },
+   "single_game_high": {
+    "n": 3,
+    "accuracy": 1.0,
+    "correct": 3,
+    "wrong": 0,
+    "false_abstain": 0,
+    "hallucination": 0,
+    "evidence_precision": 1.0,
+    "evidence_recall": 1.0
+   },
+   "starter_in_losses": {
+    "n": 3,
+    "accuracy": 1.0,
+    "correct": 3,
+    "wrong": 0,
+    "false_abstain": 0,
+    "hallucination": 0,
+    "evidence_precision": 1.0,
+    "evidence_recall": 1.0
+   },
+   "team_leader": {
+    "n": 3,
+    "accuracy": 1.0,
+    "correct": 3,
+    "wrong": 0,
+    "false_abstain": 0,
+    "hallucination": 0,
+    "evidence_precision": 1.0,
+    "evidence_recall": 1.0
+   },
+   "threshold_games_against": {
+    "n": 3,
+    "accuracy": 1.0,
+    "correct": 3,
+    "wrong": 0,
+    "false_abstain": 0,
+    "hallucination": 0,
+    "evidence_precision": 1.0,
+    "evidence_recall": 1.0
+   },
+   "why_missed": {
+    "n": 4,
+    "accuracy": 1.0,
+    "correct": 4,
+    "wrong": 0,
+    "false_abstain": 0,
+    "hallucination": 0,
+    "evidence_precision": 1.0,
+    "evidence_recall": 1.0
+   }
+  }
+ },
+ "grades": [
+  {
+   "id": "heldout-001",
+   "tier": "core",
+   "kind": "player_game_stat",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "heldout-002",
+   "tier": "core",
+   "kind": "game_result",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "heldout-003",
+   "tier": "core",
+   "kind": "team_leader",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "heldout-004",
+   "tier": "core",
+   "kind": "opener_points",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "heldout-005",
+   "tier": "extended",
+   "kind": "month_total",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "heldout-006",
+   "tier": "extended",
+   "kind": "extreme_margin",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "heldout-007",
+   "tier": "extended",
+   "kind": "starter_in_losses",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "heldout-008",
+   "tier": "extended",
+   "kind": "threshold_games_against",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "heldout-009",
+   "tier": "extended",
+   "kind": "after_break",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "heldout-010",
+   "tier": "extended",
+   "kind": "single_game_high",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "heldout-011",
+   "tier": "stretch",
+   "kind": "go_ahead",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "heldout-012",
+   "tier": "stretch",
+   "kind": "comeback",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "heldout-013",
+   "tier": "stretch",
+   "kind": "why_missed",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "heldout-014",
+   "tier": "core",
+   "kind": "player_game_stat",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "heldout-015",
+   "tier": "core",
+   "kind": "game_result",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "heldout-016",
+   "tier": "core",
+   "kind": "team_leader",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "heldout-017",
+   "tier": "core",
+   "kind": "opener_points",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "heldout-018",
+   "tier": "extended",
+   "kind": "month_total",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "heldout-019",
+   "tier": "extended",
+   "kind": "extreme_margin",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "heldout-020",
+   "tier": "extended",
+   "kind": "starter_in_losses",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "heldout-021",
+   "tier": "extended",
+   "kind": "threshold_games_against",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "heldout-022",
+   "tier": "extended",
+   "kind": "after_break",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "heldout-023",
+   "tier": "extended",
+   "kind": "single_game_high",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "heldout-024",
+   "tier": "stretch",
+   "kind": "go_ahead",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "heldout-025",
+   "tier": "stretch",
+   "kind": "comeback",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "heldout-026",
+   "tier": "stretch",
+   "kind": "why_missed",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "heldout-027",
+   "tier": "core",
+   "kind": "player_game_stat",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "heldout-028",
+   "tier": "core",
+   "kind": "game_result",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "heldout-029",
+   "tier": "core",
+   "kind": "team_leader",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "heldout-030",
+   "tier": "core",
+   "kind": "opener_points",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "heldout-031",
+   "tier": "extended",
+   "kind": "month_total",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "heldout-032",
+   "tier": "extended",
+   "kind": "extreme_margin",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "heldout-033",
+   "tier": "extended",
+   "kind": "starter_in_losses",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "heldout-034",
+   "tier": "extended",
+   "kind": "threshold_games_against",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "heldout-035",
+   "tier": "extended",
+   "kind": "after_break",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "heldout-036",
+   "tier": "extended",
+   "kind": "single_game_high",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "heldout-037",
+   "tier": "stretch",
+   "kind": "go_ahead",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "heldout-038",
+   "tier": "stretch",
+   "kind": "comeback",
+   "outcome": "wrong",
+   "diff": {
+    "opponent": {
+     "got": "Hornets",
+     "gold": "Pistons"
+    },
+    "deficit": {
+     "got": 11,
+     "gold": 23
+    },
+    "score": {
+     "got": "116-103",
+     "gold": "107-105"
+    }
+   },
+   "evidence_precision": 0.0,
+   "evidence_recall": 0.0
+  },
+  {
+   "id": "heldout-039",
+   "tier": "stretch",
+   "kind": "why_missed",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "heldout-040",
+   "tier": "core",
+   "kind": "player_game_stat",
+   "outcome": "correct"
+  },
+  {
+   "id": "heldout-041",
+   "tier": "core",
+   "kind": "game_result",
+   "outcome": "correct"
+  },
+  {
+   "id": "heldout-042",
+   "tier": "core",
+   "kind": "opener_points",
+   "outcome": "correct"
+  },
+  {
+   "id": "heldout-043",
+   "tier": "stretch",
+   "kind": "why_missed",
+   "outcome": "correct"
+  },
+  {
+   "id": "heldout-044",
+   "tier": "core",
+   "kind": "player_game_stat",
+   "outcome": "correct"
+  }
+ ]
+}

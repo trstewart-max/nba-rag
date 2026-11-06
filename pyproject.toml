@@ -1,0 +1,9 @@
+[project]
+name = "nba-rag"
+version = "0.1.0"
+description = "Retrieval-augmented question answering over the 2025-26 NBA season"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

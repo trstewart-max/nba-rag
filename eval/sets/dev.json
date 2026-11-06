@@ -1,0 +1,2543 @@
+[
+ {
+  "id": "dev-001",
+  "tier": "core",
+  "kind": "player_game_stat",
+  "question": "How many points did Anthony Edwards have against the Thunder on March 15, 2026?",
+  "answer": {
+   "fields": {
+    "points": "int"
+   },
+   "evidence": [
+    "games",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "points": 19,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500976
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500976,
+     "player_id": 1630162
+    }
+   ]
+  }
+ },
+ {
+  "id": "dev-002",
+  "tier": "core",
+  "kind": "game_result",
+  "question": "What was the final score of the Lakers' game against the Mavericks on February 12, 2026, and who won?",
+  "answer": {
+   "fields": {
+    "winner": "str",
+    "score": "str"
+   },
+   "evidence": [
+    "games"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "winner": "Lakers",
+   "score": "124-104",
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500791
+    }
+   ]
+  }
+ },
+ {
+  "id": "dev-003",
+  "tier": "core",
+  "kind": "team_leader",
+  "question": "Who led the Rockets in rebounds in their loss against the Lakers on March 16, 2026, and how many did they have?",
+  "answer": {
+   "fields": {
+    "player_name": "str",
+    "rebounds": "int"
+   },
+   "evidence": [
+    "games",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "player_name": "Amen Thompson",
+   "rebounds": 12,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500989
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500989,
+     "player_id": 1641708
+    }
+   ]
+  }
+ },
+ {
+  "id": "dev-004",
+  "tier": "core",
+  "kind": "opener_points",
+  "question": "How many points did Moussa Diabate score in the Hornets' season opener?",
+  "answer": {
+   "fields": {
+    "points": "int"
+   },
+   "evidence": [
+    "games",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "points": 13,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500080
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500080,
+     "player_id": 1631217
+    }
+   ]
+  }
+ },
+ {
+  "id": "dev-005",
+  "tier": "extended",
+  "kind": "month_total",
+  "question": "How many points did Quinten Post have in November 2025, and in how many games?",
+  "answer": {
+   "fields": {
+    "points": "int",
+    "games": "int"
+   },
+   "evidence": [
+    "games",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "points": 121,
+   "games": 15,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500037
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500037,
+     "player_id": 1642366
+    },
+    {
+     "table": "games",
+     "game_id": 22500047
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500047,
+     "player_id": 1642366
+    },
+    {
+     "table": "games",
+     "game_id": 22500056
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500056,
+     "player_id": 1642366
+    },
+    {
+     "table": "games",
+     "game_id": 22500066
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500066,
+     "player_id": 1642366
+    },
+    {
+     "table": "games",
+     "game_id": 22500144
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500144,
+     "player_id": 1642366
+    },
+    {
+     "table": "games",
+     "game_id": 22500169
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500169,
+     "player_id": 1642366
+    },
+    {
+     "table": "games",
+     "game_id": 22500181
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500181,
+     "player_id": 1642366
+    },
+    {
+     "table": "games",
+     "game_id": 22500196
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500196,
+     "player_id": 1642366
+    },
+    {
+     "table": "games",
+     "game_id": 22500210
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500210,
+     "player_id": 1642366
+    },
+    {
+     "table": "games",
+     "game_id": 22500220
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500220,
+     "player_id": 1642366
+    },
+    {
+     "table": "games",
+     "game_id": 22500237
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500237,
+     "player_id": 1642366
+    },
+    {
+     "table": "games",
+     "game_id": 22500249
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500249,
+     "player_id": 1642366
+    },
+    {
+     "table": "games",
+     "game_id": 22500257
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500257,
+     "player_id": 1642366
+    },
+    {
+     "table": "games",
+     "game_id": 22500291
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500291,
+     "player_id": 1642366
+    },
+    {
+     "table": "games",
+     "game_id": 22500298
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500298,
+     "player_id": 1642366
+    }
+   ]
+  }
+ },
+ {
+  "id": "dev-006",
+  "tier": "extended",
+  "kind": "extreme_margin",
+  "question": "What was the Timberwolves' largest margin of victory this season, who did they beat, and what was the final score?",
+  "answer": {
+   "fields": {
+    "opponent": "str",
+    "margin": "int",
+    "score": "str"
+   },
+   "evidence": [
+    "games"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "opponent": "Jazz",
+   "margin": 40,
+   "score": "137-97",
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500036
+    }
+   ],
+   "accept": []
+  }
+ },
+ {
+  "id": "dev-007",
+  "tier": "extended",
+  "kind": "starter_in_losses",
+  "question": "Which Pacers starter scored the most total points in games the Pacers lost by 15 or more points?",
+  "answer": {
+   "fields": {
+    "player_name": "str",
+    "points": "int"
+   },
+   "evidence": [
+    "games",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "player_name": "Pascal Siakam",
+   "points": 462,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500020
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500020,
+     "player_id": 1627783
+    },
+    {
+     "table": "games",
+     "game_id": 22500103
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500103,
+     "player_id": 1627783
+    },
+    {
+     "table": "games",
+     "game_id": 22500189
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500189,
+     "player_id": 1627783
+    },
+    {
+     "table": "games",
+     "game_id": 22500211
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500211,
+     "player_id": 1627783
+    },
+    {
+     "table": "games",
+     "game_id": 22500226
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500226,
+     "player_id": 1627783
+    },
+    {
+     "table": "games",
+     "game_id": 22500230
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500230,
+     "player_id": 1627783
+    },
+    {
+     "table": "games",
+     "game_id": 22500242
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500242,
+     "player_id": 1627783
+    },
+    {
+     "table": "games",
+     "game_id": 22500310
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500310,
+     "player_id": 1627783
+    },
+    {
+     "table": "games",
+     "game_id": 22500325
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500325,
+     "player_id": 1627783
+    },
+    {
+     "table": "games",
+     "game_id": 22500389
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500389,
+     "player_id": 1627783
+    },
+    {
+     "table": "games",
+     "game_id": 22500413
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500413,
+     "player_id": 1627783
+    },
+    {
+     "table": "games",
+     "game_id": 22500426
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500426,
+     "player_id": 1627783
+    },
+    {
+     "table": "games",
+     "game_id": 22500436
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500436,
+     "player_id": 1627783
+    },
+    {
+     "table": "games",
+     "game_id": 22500621
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500621,
+     "player_id": 1627783
+    },
+    {
+     "table": "games",
+     "game_id": 22500659
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500659,
+     "player_id": 1627783
+    },
+    {
+     "table": "games",
+     "game_id": 22500759
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500759,
+     "player_id": 1627783
+    },
+    {
+     "table": "games",
+     "game_id": 22500898
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500898,
+     "player_id": 1627783
+    },
+    {
+     "table": "games",
+     "game_id": 22500929
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500929,
+     "player_id": 1627783
+    },
+    {
+     "table": "games",
+     "game_id": 22501028
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501028,
+     "player_id": 1627783
+    },
+    {
+     "table": "games",
+     "game_id": 22501120
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501120,
+     "player_id": 1627783
+    },
+    {
+     "table": "games",
+     "game_id": 22501216
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501216,
+     "player_id": 1627783
+    }
+   ]
+  }
+ },
+ {
+  "id": "dev-008",
+  "tier": "extended",
+  "kind": "threshold_games_against",
+  "question": "Which player had the most games with 35 or more points against the Trail Blazers this season?",
+  "answer": {
+   "fields": {
+    "player_name": "str",
+    "games": "int"
+   },
+   "evidence": [
+    "games",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "player_name": "Stephen Curry",
+   "games": 3,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500056
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500056,
+     "player_id": 201939
+    },
+    {
+     "table": "games",
+     "game_id": 22500097
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500097,
+     "player_id": 201939
+    },
+    {
+     "table": "games",
+     "game_id": 22501221
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501221,
+     "player_id": 201939
+    }
+   ]
+  }
+ },
+ {
+  "id": "dev-009",
+  "tier": "extended",
+  "kind": "after_break",
+  "question": "How many points did Luke Kennard score after the All-Star break, and in how many games?",
+  "answer": {
+   "fields": {
+    "points": "int",
+    "games": "int"
+   },
+   "evidence": [
+    "games",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "points": 248,
+   "games": 28,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500809
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500809,
+     "player_id": 1628379
+    },
+    {
+     "table": "games",
+     "game_id": 22500823
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500823,
+     "player_id": 1628379
+    },
+    {
+     "table": "games",
+     "game_id": 22500840
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500840,
+     "player_id": 1628379
+    },
+    {
+     "table": "games",
+     "game_id": 22500855
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500855,
+     "player_id": 1628379
+    },
+    {
+     "table": "games",
+     "game_id": 22500866
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500866,
+     "player_id": 1628379
+    },
+    {
+     "table": "games",
+     "game_id": 22500878
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500878,
+     "player_id": 1628379
+    },
+    {
+     "table": "games",
+     "game_id": 22500891
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500891,
+     "player_id": 1628379
+    },
+    {
+     "table": "games",
+     "game_id": 22500906
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500906,
+     "player_id": 1628379
+    },
+    {
+     "table": "games",
+     "game_id": 22500914
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500914,
+     "player_id": 1628379
+    },
+    {
+     "table": "games",
+     "game_id": 22500922
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500922,
+     "player_id": 1628379
+    },
+    {
+     "table": "games",
+     "game_id": 22500946
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500946,
+     "player_id": 1628379
+    },
+    {
+     "table": "games",
+     "game_id": 22500960
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500960,
+     "player_id": 1628379
+    },
+    {
+     "table": "games",
+     "game_id": 22500974
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500974,
+     "player_id": 1628379
+    },
+    {
+     "table": "games",
+     "game_id": 22500989
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500989,
+     "player_id": 1628379
+    },
+    {
+     "table": "games",
+     "game_id": 22501007
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501007,
+     "player_id": 1628379
+    },
+    {
+     "table": "games",
+     "game_id": 22501010
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501010,
+     "player_id": 1628379
+    },
+    {
+     "table": "games",
+     "game_id": 22501024
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501024,
+     "player_id": 1628379
+    },
+    {
+     "table": "games",
+     "game_id": 22501038
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501038,
+     "player_id": 1628379
+    },
+    {
+     "table": "games",
+     "game_id": 22501052
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501052,
+     "player_id": 1628379
+    },
+    {
+     "table": "games",
+     "game_id": 22501075
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501075,
+     "player_id": 1628379
+    },
+    {
+     "table": "games",
+     "game_id": 22501098
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501098,
+     "player_id": 1628379
+    },
+    {
+     "table": "games",
+     "game_id": 22501103
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501103,
+     "player_id": 1628379
+    },
+    {
+     "table": "games",
+     "game_id": 22501116
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501116,
+     "player_id": 1628379
+    },
+    {
+     "table": "games",
+     "game_id": 22501140
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501140,
+     "player_id": 1628379
+    },
+    {
+     "table": "games",
+     "game_id": 22501155
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501155,
+     "player_id": 1628379
+    },
+    {
+     "table": "games",
+     "game_id": 22501170
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501170,
+     "player_id": 1628379
+    },
+    {
+     "table": "games",
+     "game_id": 22501185
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501185,
+     "player_id": 1628379
+    },
+    {
+     "table": "games",
+     "game_id": 22501198
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501198,
+     "player_id": 1628379
+    }
+   ]
+  }
+ },
+ {
+  "id": "dev-010",
+  "tier": "extended",
+  "kind": "single_game_high",
+  "question": "Who had the most points in a single game against the Celtics this season, and how many?",
+  "answer": {
+   "fields": {
+    "player_name": "str",
+    "points": "int"
+   },
+   "evidence": [
+    "games",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "player_name": "Cade Cunningham",
+   "points": 42,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500060
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500060,
+     "player_id": 1630595
+    }
+   ]
+  }
+ },
+ {
+  "id": "dev-011",
+  "tier": "stretch",
+  "kind": "go_ahead",
+  "question": "Who hit the go-ahead basket in the Nets' 107-105 win over the Pistons on March 7, 2026?",
+  "answer": {
+   "fields": {
+    "player_name": "str"
+   },
+   "evidence": [
+    "games",
+    "recaps",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "player_name": "Ziaire Williams",
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500916
+    },
+    {
+     "table": "recaps",
+     "recap_id": 945
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500916,
+     "player_id": 1630533
+    }
+   ]
+  }
+ },
+ {
+  "id": "dev-012",
+  "tier": "stretch",
+  "kind": "comeback",
+  "question": "What was the largest deficit the Clippers overcame to win a game this season, and who were they playing?",
+  "answer": {
+   "fields": {
+    "opponent": "str",
+    "deficit": "int",
+    "score": "str"
+   },
+   "evidence": [
+    "games",
+    "recaps"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "opponent": "Pacers",
+   "deficit": 24,
+   "score": "114-113",
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22501066
+    },
+    {
+     "table": "recaps",
+     "recap_id": 1096
+    }
+   ],
+   "accept": []
+  }
+ },
+ {
+  "id": "dev-013",
+  "tier": "stretch",
+  "kind": "why_missed",
+  "question": "Why did AJ Johnson miss the Wizards' game against the Clippers on January 19, 2026?",
+  "answer": {
+   "fields": {
+    "status": "str",
+    "reason": "str"
+   },
+   "evidence": [
+    "availability_notes",
+    "games"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "status": "did not play",
+   "reason": "coach's decision",
+   "evidence": [
+    {
+     "table": "availability_notes",
+     "note_id": 2608
+    },
+    {
+     "table": "games",
+     "game_id": 22500608
+    }
+   ]
+  }
+ },
+ {
+  "id": "dev-014",
+  "tier": "core",
+  "kind": "player_game_stat",
+  "question": "How many assists did Anthony Gill have against the Jazz on March 25, 2026?",
+  "answer": {
+   "fields": {
+    "assists": "int"
+   },
+   "evidence": [
+    "games",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "assists": 5,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22501057
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501057,
+     "player_id": 1630264
+    }
+   ]
+  }
+ },
+ {
+  "id": "dev-015",
+  "tier": "core",
+  "kind": "game_result",
+  "question": "What was the final score of the Suns' game against the Raptors on March 22, 2026, and who won?",
+  "answer": {
+   "fields": {
+    "winner": "str",
+    "score": "str"
+   },
+   "evidence": [
+    "games"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "winner": "Suns",
+   "score": "120-98",
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22501036
+    }
+   ]
+  }
+ },
+ {
+  "id": "dev-016",
+  "tier": "core",
+  "kind": "team_leader",
+  "question": "Who led the Trail Blazers in rebounds in their loss against the Pelicans on December 11, 2025, and how many did they have?",
+  "answer": {
+   "fields": {
+    "player_name": "str",
+    "rebounds": "int"
+   },
+   "evidence": [
+    "games",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "player_name": "Kris Murray",
+   "rebounds": 9,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22501207
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501207,
+     "player_id": 1631200
+    }
+   ]
+  }
+ },
+ {
+  "id": "dev-017",
+  "tier": "core",
+  "kind": "opener_points",
+  "question": "How many points did Adem Bona score in the 76ers' season opener?",
+  "answer": {
+   "fields": {
+    "points": "int"
+   },
+   "evidence": [
+    "games",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "points": 0,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500083
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500083,
+     "player_id": 1641737
+    }
+   ]
+  }
+ },
+ {
+  "id": "dev-018",
+  "tier": "extended",
+  "kind": "month_total",
+  "question": "How many rebounds did Rasheer Fleming have in December 2025, and in how many games?",
+  "answer": {
+   "fields": {
+    "rebounds": "int",
+    "games": "int"
+   },
+   "evidence": [
+    "games",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "rebounds": 9,
+   "games": 8,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500317
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500317,
+     "player_id": 1642853
+    },
+    {
+     "table": "games",
+     "game_id": 22500346
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500346,
+     "player_id": 1642853
+    },
+    {
+     "table": "games",
+     "game_id": 22500418
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500418,
+     "player_id": 1642853
+    },
+    {
+     "table": "games",
+     "game_id": 22500429
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500429,
+     "player_id": 1642853
+    },
+    {
+     "table": "games",
+     "game_id": 22500434
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500434,
+     "player_id": 1642853
+    },
+    {
+     "table": "games",
+     "game_id": 22500448
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500448,
+     "player_id": 1642853
+    },
+    {
+     "table": "games",
+     "game_id": 22500465
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500465,
+     "player_id": 1642853
+    },
+    {
+     "table": "games",
+     "game_id": 22501203
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501203,
+     "player_id": 1642853
+    }
+   ]
+  }
+ },
+ {
+  "id": "dev-019",
+  "tier": "extended",
+  "kind": "extreme_margin",
+  "question": "What was the Jazz's largest margin of victory this season, who did they beat, and what was the final score?",
+  "answer": {
+   "fields": {
+    "opponent": "str",
+    "margin": "int",
+    "score": "str"
+   },
+   "evidence": [
+    "games"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "opponent": "Grizzlies",
+   "margin": 46,
+   "score": "147-101",
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22501181
+    }
+   ],
+   "accept": []
+  }
+ },
+ {
+  "id": "dev-020",
+  "tier": "extended",
+  "kind": "starter_in_losses",
+  "question": "Which Cavaliers starter scored the most total points in games the Cavaliers lost by 20 or more points?",
+  "answer": {
+   "fields": {
+    "player_name": "str",
+    "points": "int"
+   },
+   "evidence": [
+    "games",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "player_name": "Jaylon Tyson",
+   "points": 50,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500015
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500015,
+     "player_id": 1642281
+    },
+    {
+     "table": "games",
+     "game_id": 22500128
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500128,
+     "player_id": 1642281
+    },
+    {
+     "table": "games",
+     "game_id": 22501173
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501173,
+     "player_id": 1642281
+    }
+   ]
+  }
+ },
+ {
+  "id": "dev-021",
+  "tier": "extended",
+  "kind": "threshold_games_against",
+  "question": "Which player had the most games with 30 or more points against the Magic this season?",
+  "answer": {
+   "fields": {
+    "player_name": "str",
+    "games": "int"
+   },
+   "evidence": [
+    "games",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "player_name": "Jalen Brunson",
+   "games": 4,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500215
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500215,
+     "player_id": 1628973
+    },
+    {
+     "table": "games",
+     "game_id": 22500269
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500269,
+     "player_id": 1628973
+    },
+    {
+     "table": "games",
+     "game_id": 22500357
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500357,
+     "player_id": 1628973
+    },
+    {
+     "table": "games",
+     "game_id": 22501229
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501229,
+     "player_id": 1628973
+    }
+   ]
+  }
+ },
+ {
+  "id": "dev-022",
+  "tier": "extended",
+  "kind": "after_break",
+  "question": "How many points did Dyson Daniels score after the All-Star break, and in how many games?",
+  "answer": {
+   "fields": {
+    "points": "int",
+    "games": "int"
+   },
+   "evidence": [
+    "games",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "points": 287,
+   "games": 23,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500794
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500794,
+     "player_id": 1630700
+    },
+    {
+     "table": "games",
+     "game_id": 22500805
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500805,
+     "player_id": 1630700
+    },
+    {
+     "table": "games",
+     "game_id": 22500818
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500818,
+     "player_id": 1630700
+    },
+    {
+     "table": "games",
+     "game_id": 22500832
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500832,
+     "player_id": 1630700
+    },
+    {
+     "table": "games",
+     "game_id": 22500850
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500850,
+     "player_id": 1630700
+    },
+    {
+     "table": "games",
+     "game_id": 22500873
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500873,
+     "player_id": 1630700
+    },
+    {
+     "table": "games",
+     "game_id": 22500897
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500897,
+     "player_id": 1630700
+    },
+    {
+     "table": "games",
+     "game_id": 22500917
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500917,
+     "player_id": 1630700
+    },
+    {
+     "table": "games",
+     "game_id": 22500939
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500939,
+     "player_id": 1630700
+    },
+    {
+     "table": "games",
+     "game_id": 22500970
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500970,
+     "player_id": 1630700
+    },
+    {
+     "table": "games",
+     "game_id": 22500983
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500983,
+     "player_id": 1630700
+    },
+    {
+     "table": "games",
+     "game_id": 22501006
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501006,
+     "player_id": 1630700
+    },
+    {
+     "table": "games",
+     "game_id": 22501018
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501018,
+     "player_id": 1630700
+    },
+    {
+     "table": "games",
+     "game_id": 22501026
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501026,
+     "player_id": 1630700
+    },
+    {
+     "table": "games",
+     "game_id": 22501037
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501037,
+     "player_id": 1630700
+    },
+    {
+     "table": "games",
+     "game_id": 22501051
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501051,
+     "player_id": 1630700
+    },
+    {
+     "table": "games",
+     "game_id": 22501067
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501067,
+     "player_id": 1630700
+    },
+    {
+     "table": "games",
+     "game_id": 22501092
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501092,
+     "player_id": 1630700
+    },
+    {
+     "table": "games",
+     "game_id": 22501107
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501107,
+     "player_id": 1630700
+    },
+    {
+     "table": "games",
+     "game_id": 22501122
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501122,
+     "player_id": 1630700
+    },
+    {
+     "table": "games",
+     "game_id": 22501143
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501143,
+     "player_id": 1630700
+    },
+    {
+     "table": "games",
+     "game_id": 22501158
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501158,
+     "player_id": 1630700
+    },
+    {
+     "table": "games",
+     "game_id": 22501173
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501173,
+     "player_id": 1630700
+    }
+   ]
+  }
+ },
+ {
+  "id": "dev-023",
+  "tier": "extended",
+  "kind": "single_game_high",
+  "question": "Who had the most points in a single game against the Suns this season, and how many?",
+  "answer": {
+   "fields": {
+    "player_name": "str",
+    "points": "int"
+   },
+   "evidence": [
+    "games",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "player_name": "Lauri Markkanen",
+   "points": 51,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500120
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500120,
+     "player_id": 1628374
+    }
+   ]
+  }
+ },
+ {
+  "id": "dev-024",
+  "tier": "stretch",
+  "kind": "go_ahead",
+  "question": "Who hit the go-ahead basket in the Thunder's 116-107 win over the Raptors on February 24, 2026?",
+  "answer": {
+   "fields": {
+    "player_name": "str"
+   },
+   "evidence": [
+    "games",
+    "recaps",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "player_name": "Cason Wallace",
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500834
+    },
+    {
+     "table": "recaps",
+     "recap_id": 863
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500834,
+     "player_id": 1641717
+    }
+   ]
+  }
+ },
+ {
+  "id": "dev-025",
+  "tier": "stretch",
+  "kind": "comeback",
+  "question": "What was the largest deficit the Mavericks overcame to win a game this season, and who were they playing?",
+  "answer": {
+   "fields": {
+    "opponent": "str",
+    "deficit": "int",
+    "score": "str"
+   },
+   "evidence": [
+    "games",
+    "recaps"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "opponent": "Nuggets",
+   "deficit": 17,
+   "score": "131-121",
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500315
+    },
+    {
+     "table": "recaps",
+     "recap_id": 306
+    }
+   ],
+   "accept": []
+  }
+ },
+ {
+  "id": "dev-026",
+  "tier": "stretch",
+  "kind": "why_missed",
+  "question": "Why did Xavier Tillman miss the Celtics' game against the Kings on January 1, 2026?",
+  "answer": {
+   "fields": {
+    "status": "str",
+    "reason": "str"
+   },
+   "evidence": [
+    "availability_notes",
+    "games"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "status": "did not play",
+   "reason": "coach's decision",
+   "evidence": [
+    {
+     "table": "availability_notes",
+     "note_id": 1988
+    },
+    {
+     "table": "games",
+     "game_id": 22500474
+    }
+   ]
+  }
+ },
+ {
+  "id": "dev-027",
+  "tier": "core",
+  "kind": "player_game_stat",
+  "question": "How many assists did Giannis Antetokounmpo have against the Wizards on October 22, 2025?",
+  "answer": {
+   "fields": {
+    "assists": "int"
+   },
+   "evidence": [
+    "games",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "assists": 5,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500086
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500086,
+     "player_id": 203507
+    }
+   ]
+  }
+ },
+ {
+  "id": "dev-028",
+  "tier": "core",
+  "kind": "game_result",
+  "question": "What was the final score of the Jazz's game against the Nets on December 4, 2025, and who won?",
+  "answer": {
+   "fields": {
+    "winner": "str",
+    "score": "str"
+   },
+   "evidence": [
+    "games"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "winner": "Jazz",
+   "score": "123-110",
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500335
+    }
+   ]
+  }
+ },
+ {
+  "id": "dev-029",
+  "tier": "core",
+  "kind": "team_leader",
+  "question": "Who led the Clippers in points in their loss against the Pelicans on March 18, 2026, and how many did they have?",
+  "answer": {
+   "fields": {
+    "player_name": "str",
+    "points": "int"
+   },
+   "evidence": [
+    "games",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "player_name": "Kawhi Leonard",
+   "points": 25,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22501005
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501005,
+     "player_id": 202695
+    }
+   ]
+  }
+ },
+ {
+  "id": "dev-030",
+  "tier": "core",
+  "kind": "opener_points",
+  "question": "How many points did Reed Sheppard score in the Rockets' season opener?",
+  "answer": {
+   "fields": {
+    "points": "int"
+   },
+   "evidence": [
+    "games",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "points": 9,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500001
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500001,
+     "player_id": 1642263
+    }
+   ]
+  }
+ },
+ {
+  "id": "dev-031",
+  "tier": "extended",
+  "kind": "month_total",
+  "question": "How many assists did Jericho Sims have in December 2025, and in how many games?",
+  "answer": {
+   "fields": {
+    "assists": "int",
+    "games": "int"
+   },
+   "evidence": [
+    "games",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "assists": 7,
+   "games": 12,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500311
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500311,
+     "player_id": 1630579
+    },
+    {
+     "table": "games",
+     "game_id": 22500331
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500331,
+     "player_id": 1630579
+    },
+    {
+     "table": "games",
+     "game_id": 22500348
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500348,
+     "player_id": 1630579
+    },
+    {
+     "table": "games",
+     "game_id": 22500353
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500353,
+     "player_id": 1630579
+    },
+    {
+     "table": "games",
+     "game_id": 22500374
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500374,
+     "player_id": 1630579
+    },
+    {
+     "table": "games",
+     "game_id": 22500400
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500400,
+     "player_id": 1630579
+    },
+    {
+     "table": "games",
+     "game_id": 22500413
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500413,
+     "player_id": 1630579
+    },
+    {
+     "table": "games",
+     "game_id": 22500428
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500428,
+     "player_id": 1630579
+    },
+    {
+     "table": "games",
+     "game_id": 22500437
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500437,
+     "player_id": 1630579
+    },
+    {
+     "table": "games",
+     "game_id": 22500447
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500447,
+     "player_id": 1630579
+    },
+    {
+     "table": "games",
+     "game_id": 22501206
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501206,
+     "player_id": 1630579
+    },
+    {
+     "table": "games",
+     "game_id": 22501219
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501219,
+     "player_id": 1630579
+    }
+   ]
+  }
+ },
+ {
+  "id": "dev-032",
+  "tier": "extended",
+  "kind": "extreme_margin",
+  "question": "What was the Trail Blazers' largest margin of defeat this season, who beat them, and what was the final score?",
+  "answer": {
+   "fields": {
+    "opponent": "str",
+    "margin": "int",
+    "score": "str"
+   },
+   "evidence": [
+    "games"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "opponent": "Nuggets",
+   "margin": 54,
+   "score": "157-103",
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500810
+    }
+   ],
+   "accept": []
+  }
+ },
+ {
+  "id": "dev-033",
+  "tier": "extended",
+  "kind": "starter_in_losses",
+  "question": "Which Clippers starter scored the most total points in games the Clippers lost by 20 or more points?",
+  "answer": {
+   "fields": {
+    "player_name": "str",
+    "points": "int"
+   },
+   "evidence": [
+    "games",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "player_name": "John Collins",
+   "points": 93,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500264
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500264,
+     "player_id": 1628381
+    },
+    {
+     "table": "games",
+     "game_id": 22500369
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500369,
+     "player_id": 1628381
+    },
+    {
+     "table": "games",
+     "game_id": 22500493
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500493,
+     "player_id": 1628381
+    },
+    {
+     "table": "games",
+     "game_id": 22500614
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500614,
+     "player_id": 1628381
+    },
+    {
+     "table": "games",
+     "game_id": 22500732
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500732,
+     "player_id": 1628381
+    }
+   ]
+  }
+ },
+ {
+  "id": "dev-034",
+  "tier": "extended",
+  "kind": "threshold_games_against",
+  "question": "Which player had the most games with 25 or more points against the Heat this season?",
+  "answer": {
+   "fields": {
+    "player_name": "str",
+    "games": "int"
+   },
+   "evidence": [
+    "games",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "player_name": "Jaylen Brown",
+   "games": 4,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500381
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500381,
+     "player_id": 1627759
+    },
+    {
+     "table": "games",
+     "game_id": 22500580
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500580,
+     "player_id": 1627759
+    },
+    {
+     "table": "games",
+     "game_id": 22500741
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500741,
+     "player_id": 1627759
+    },
+    {
+     "table": "games",
+     "game_id": 22501106
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501106,
+     "player_id": 1627759
+    }
+   ]
+  }
+ },
+ {
+  "id": "dev-035",
+  "tier": "extended",
+  "kind": "after_break",
+  "question": "How many points did Jarace Walker score after the All-Star break, and in how many games?",
+  "answer": {
+   "fields": {
+    "points": "int",
+    "games": "int"
+   },
+   "evidence": [
+    "games",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "points": 316,
+   "games": 22,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500795
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500795,
+     "player_id": 1641716
+    },
+    {
+     "table": "games",
+     "game_id": 22500803
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500803,
+     "player_id": 1641716
+    },
+    {
+     "table": "games",
+     "game_id": 22500821
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500821,
+     "player_id": 1641716
+    },
+    {
+     "table": "games",
+     "game_id": 22500831
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500831,
+     "player_id": 1641716
+    },
+    {
+     "table": "games",
+     "game_id": 22500848
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500848,
+     "player_id": 1641716
+    },
+    {
+     "table": "games",
+     "game_id": 22500872
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500872,
+     "player_id": 1641716
+    },
+    {
+     "table": "games",
+     "game_id": 22500898
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500898,
+     "player_id": 1641716
+    },
+    {
+     "table": "games",
+     "game_id": 22500914
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500914,
+     "player_id": 1641716
+    },
+    {
+     "table": "games",
+     "game_id": 22500929
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500929,
+     "player_id": 1641716
+    },
+    {
+     "table": "games",
+     "game_id": 22500945
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500945,
+     "player_id": 1641716
+    },
+    {
+     "table": "games",
+     "game_id": 22500954
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500954,
+     "player_id": 1641716
+    },
+    {
+     "table": "games",
+     "game_id": 22500962
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500962,
+     "player_id": 1641716
+    },
+    {
+     "table": "games",
+     "game_id": 22500979
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500979,
+     "player_id": 1641716
+    },
+    {
+     "table": "games",
+     "game_id": 22500994
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500994,
+     "player_id": 1641716
+    },
+    {
+     "table": "games",
+     "game_id": 22501001
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501001,
+     "player_id": 1641716
+    },
+    {
+     "table": "games",
+     "game_id": 22501028
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501028,
+     "player_id": 1641716
+    },
+    {
+     "table": "games",
+     "game_id": 22501039
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501039,
+     "player_id": 1641716
+    },
+    {
+     "table": "games",
+     "game_id": 22501052
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501052,
+     "player_id": 1641716
+    },
+    {
+     "table": "games",
+     "game_id": 22501066
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501066,
+     "player_id": 1641716
+    },
+    {
+     "table": "games",
+     "game_id": 22501152
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501152,
+     "player_id": 1641716
+    },
+    {
+     "table": "games",
+     "game_id": 22501167
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501167,
+     "player_id": 1641716
+    },
+    {
+     "table": "games",
+     "game_id": 22501175
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501175,
+     "player_id": 1641716
+    }
+   ]
+  }
+ },
+ {
+  "id": "dev-036",
+  "tier": "extended",
+  "kind": "single_game_high",
+  "question": "Who had the most points in a single game against the Suns this season, and how many?",
+  "answer": {
+   "fields": {
+    "player_name": "str",
+    "points": "int"
+   },
+   "evidence": [
+    "games",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "player_name": "Lauri Markkanen",
+   "points": 51,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500120
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500120,
+     "player_id": 1628374
+    }
+   ]
+  }
+ },
+ {
+  "id": "dev-037",
+  "tier": "stretch",
+  "kind": "go_ahead",
+  "question": "Who hit the go-ahead basket in the 76ers' 117-116 win over the Celtics on October 22, 2025?",
+  "answer": {
+   "fields": {
+    "player_name": "str"
+   },
+   "evidence": [
+    "games",
+    "recaps",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "player_name": "Kelly Oubre Jr.",
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500083
+    },
+    {
+     "table": "recaps",
+     "recap_id": 7
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500083,
+     "player_id": 1626162
+    }
+   ]
+  }
+ },
+ {
+  "id": "dev-038",
+  "tier": "stretch",
+  "kind": "comeback",
+  "question": "What was the largest deficit the Raptors overcame to win a game this season, and who were they playing?",
+  "answer": {
+   "fields": {
+    "opponent": "str",
+    "deficit": "int",
+    "score": "str"
+   },
+   "evidence": [
+    "games",
+    "recaps"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "opponent": "Magic",
+   "deficit": 21,
+   "score": "107-106",
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500451
+    },
+    {
+     "table": "recaps",
+     "recap_id": 478
+    }
+   ],
+   "accept": []
+  }
+ },
+ {
+  "id": "dev-039",
+  "tier": "stretch",
+  "kind": "why_missed",
+  "question": "Why did Shaedon Sharpe miss the Trail Blazers' game against the Jazz on March 13, 2026?",
+  "answer": {
+   "fields": {
+    "status": "str",
+    "reason": "str"
+   },
+   "evidence": [
+    "availability_notes",
+    "games"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "status": "did not dress",
+   "reason": "injury/illness",
+   "evidence": [
+    {
+     "table": "availability_notes",
+     "note_id": 4225
+    },
+    {
+     "table": "games",
+     "game_id": 22500967
+    }
+   ]
+  }
+ },
+ {
+  "id": "dev-040",
+  "tier": "core",
+  "kind": "player_game_stat",
+  "question": "How many points did Josh Giddey have against the Pistons on November 12, 2025?",
+  "answer": {
+   "fields": {
+    "points": "int"
+   },
+   "evidence": [
+    "games",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": false,
+   "evidence": []
+  }
+ },
+ {
+  "id": "dev-041",
+  "tier": "core",
+  "kind": "game_result",
+  "question": "What was the final score of the Jazz's game against the Nets on January 1, 2026, and who won?",
+  "answer": {
+   "fields": {
+    "winner": "str",
+    "score": "str"
+   },
+   "evidence": [
+    "games"
+   ]
+  },
+  "gold": {
+   "answerable": false,
+   "evidence": []
+  }
+ },
+ {
+  "id": "dev-042",
+  "tier": "core",
+  "kind": "opener_points",
+  "question": "How many points did Mark Sears score in the Bucks' season opener?",
+  "answer": {
+   "fields": {
+    "points": "int"
+   },
+   "evidence": [
+    "games",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": false,
+   "evidence": []
+  }
+ },
+ {
+  "id": "dev-043",
+  "tier": "stretch",
+  "kind": "why_missed",
+  "question": "Why did Ty Jerome miss the Grizzlies' game against the Heat on February 21, 2026?",
+  "answer": {
+   "fields": {
+    "status": "str",
+    "reason": "str"
+   },
+   "evidence": [
+    "availability_notes",
+    "games"
+   ]
+  },
+  "gold": {
+   "answerable": false,
+   "evidence": []
+  }
+ },
+ {
+  "id": "dev-044",
+  "tier": "core",
+  "kind": "player_game_stat",
+  "question": "How many points did Ben Barlow have against the Hornets on December 29, 2025?",
+  "answer": {
+   "fields": {
+    "points": "int"
+   },
+   "evidence": [
+    "games",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": false,
+   "evidence": []
+  }
+ }
+]

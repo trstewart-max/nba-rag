@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+psycopg[binary]
+sqlalchemy>=2
+pgvector
+pandas
+pyarrow
+requests
+pydantic
+kagglehub
+pytest

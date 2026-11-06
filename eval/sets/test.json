@@ -1,0 +1,2624 @@
+[
+ {
+  "id": "test-001",
+  "tier": "core",
+  "kind": "player_game_stat",
+  "question": "Give me Karl-Anthony Towns' rebounds total from the Thunder game on Mar 4.",
+  "answer": {
+   "fields": {
+    "rebounds": "int"
+   },
+   "evidence": [
+    "games",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "rebounds": 17,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500893
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500893,
+     "player_id": 1626157
+    }
+   ]
+  }
+ },
+ {
+  "id": "test-002",
+  "tier": "core",
+  "kind": "game_result",
+  "question": "Heat vs. Wizards on Feb 8: what was the final score, and which team won?",
+  "answer": {
+   "fields": {
+    "winner": "str",
+    "score": "str"
+   },
+   "evidence": [
+    "games"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "winner": "Heat",
+   "score": "132-101",
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500758
+    }
+   ]
+  }
+ },
+ {
+  "id": "test-003",
+  "tier": "core",
+  "kind": "team_leader",
+  "question": "Who paced the Clippers in points when they beat the Wizards on Jan 14, and with how many?",
+  "answer": {
+   "fields": {
+    "player_name": "str",
+    "points": "int"
+   },
+   "evidence": [
+    "games",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "player_name": "Kawhi Leonard",
+   "points": 33,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500577
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500577,
+     "player_id": 202695
+    }
+   ]
+  }
+ },
+ {
+  "id": "test-004",
+  "tier": "core",
+  "kind": "opener_points",
+  "question": "In the Thunder's opening game, how many points did Chet Holmgren put up?",
+  "answer": {
+   "fields": {
+    "points": "int"
+   },
+   "evidence": [
+    "games",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "points": 28,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500001
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500001,
+     "player_id": 1631096
+    }
+   ]
+  }
+ },
+ {
+  "id": "test-005",
+  "tier": "extended",
+  "kind": "month_total",
+  "question": "Alex Sarr: total assists and games played during March 2026?",
+  "answer": {
+   "fields": {
+    "assists": "int",
+    "games": "int"
+   },
+   "evidence": [
+    "games",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "assists": 15,
+   "games": 7,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500925
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500925,
+     "player_id": 1642259
+    },
+    {
+     "table": "games",
+     "game_id": 22500938
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500938,
+     "player_id": 1642259
+    },
+    {
+     "table": "games",
+     "game_id": 22500955
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500955,
+     "player_id": 1642259
+    },
+    {
+     "table": "games",
+     "game_id": 22500971
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500971,
+     "player_id": 1642259
+    },
+    {
+     "table": "games",
+     "game_id": 22501009
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501009,
+     "player_id": 1642259
+    },
+    {
+     "table": "games",
+     "game_id": 22501022
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501022,
+     "player_id": 1642259
+    },
+    {
+     "table": "games",
+     "game_id": 22501073
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501073,
+     "player_id": 1642259
+    }
+   ]
+  }
+ },
+ {
+  "id": "test-006",
+  "tier": "extended",
+  "kind": "extreme_margin",
+  "question": "Who did the Nuggets beat by the most points this season, by how much, and what was the score?",
+  "answer": {
+   "fields": {
+    "opponent": "str",
+    "margin": "int",
+    "score": "str"
+   },
+   "evidence": [
+    "games"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "opponent": "Trail Blazers",
+   "margin": 54,
+   "score": "157-103",
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500810
+    }
+   ],
+   "accept": []
+  }
+ },
+ {
+  "id": "test-007",
+  "tier": "extended",
+  "kind": "starter_in_losses",
+  "question": "Among Jazz starters, who scored the most combined points in defeats of 15+ points?",
+  "answer": {
+   "fields": {
+    "player_name": "str",
+    "points": "int"
+   },
+   "evidence": [
+    "games",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "player_name": "Ace Bailey",
+   "points": 353,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500055
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500055,
+     "player_id": 1642846
+    },
+    {
+     "table": "games",
+     "game_id": 22500291
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500291,
+     "player_id": 1642846
+    },
+    {
+     "table": "games",
+     "game_id": 22500301
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500301,
+     "player_id": 1642846
+    },
+    {
+     "table": "games",
+     "game_id": 22500343
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500343,
+     "player_id": 1642846
+    },
+    {
+     "table": "games",
+     "game_id": 22500363
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500363,
+     "player_id": 1642846
+    },
+    {
+     "table": "games",
+     "game_id": 22500405
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500405,
+     "player_id": 1642846
+    },
+    {
+     "table": "games",
+     "game_id": 22500583
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500583,
+     "player_id": 1642846
+    },
+    {
+     "table": "games",
+     "game_id": 22500593
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500593,
+     "player_id": 1642846
+    },
+    {
+     "table": "games",
+     "game_id": 22500632
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500632,
+     "player_id": 1642846
+    },
+    {
+     "table": "games",
+     "game_id": 22500649
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500649,
+     "player_id": 1642846
+    },
+    {
+     "table": "games",
+     "game_id": 22500678
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500678,
+     "player_id": 1642846
+    },
+    {
+     "table": "games",
+     "game_id": 22500790
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500790,
+     "player_id": 1642846
+    },
+    {
+     "table": "games",
+     "game_id": 22500830
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500830,
+     "player_id": 1642846
+    },
+    {
+     "table": "games",
+     "game_id": 22500949
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500949,
+     "player_id": 1642846
+    },
+    {
+     "table": "games",
+     "game_id": 22501004
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501004,
+     "player_id": 1642846
+    },
+    {
+     "table": "games",
+     "game_id": 22501043
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501043,
+     "player_id": 1642846
+    },
+    {
+     "table": "games",
+     "game_id": 22501057
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501057,
+     "player_id": 1642846
+    },
+    {
+     "table": "games",
+     "game_id": 22501081
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501081,
+     "player_id": 1642846
+    },
+    {
+     "table": "games",
+     "game_id": 22501124
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501124,
+     "player_id": 1642846
+    },
+    {
+     "table": "games",
+     "game_id": 22501139
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501139,
+     "player_id": 1642846
+    },
+    {
+     "table": "games",
+     "game_id": 22501198
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501198,
+     "player_id": 1642846
+    }
+   ]
+  }
+ },
+ {
+  "id": "test-008",
+  "tier": "extended",
+  "kind": "threshold_games_against",
+  "question": "Who scored at least 35 points against the Mavericks in the most games this season?",
+  "answer": {
+   "fields": {
+    "player_name": "str",
+    "games": "int"
+   },
+   "evidence": [
+    "games",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "player_name": "Victor Wembanyama",
+   "games": 2,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500004
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500004,
+     "player_id": 1641705
+    },
+    {
+     "table": "games",
+     "game_id": 22501180
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501180,
+     "player_id": 1641705
+    }
+   ]
+  }
+ },
+ {
+  "id": "test-009",
+  "tier": "extended",
+  "kind": "after_break",
+  "question": "Karl-Anthony Towns after the All-Star break: how many points, over how many games?",
+  "answer": {
+   "fields": {
+    "points": "int",
+    "games": "int"
+   },
+   "evidence": [
+    "games",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "points": 494,
+   "games": 24,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500796
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500796,
+     "player_id": 1626157
+    },
+    {
+     "table": "games",
+     "game_id": 22500816
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500816,
+     "player_id": 1626157
+    },
+    {
+     "table": "games",
+     "game_id": 22500825
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500825,
+     "player_id": 1626157
+    },
+    {
+     "table": "games",
+     "game_id": 22500835
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500835,
+     "player_id": 1626157
+    },
+    {
+     "table": "games",
+     "game_id": 22500860
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500860,
+     "player_id": 1626157
+    },
+    {
+     "table": "games",
+     "game_id": 22500868
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500868,
+     "player_id": 1626157
+    },
+    {
+     "table": "games",
+     "game_id": 22500887
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500887,
+     "player_id": 1626157
+    },
+    {
+     "table": "games",
+     "game_id": 22500893
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500893,
+     "player_id": 1626157
+    },
+    {
+     "table": "games",
+     "game_id": 22500911
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500911,
+     "player_id": 1626157
+    },
+    {
+     "table": "games",
+     "game_id": 22500922
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500922,
+     "player_id": 1626157
+    },
+    {
+     "table": "games",
+     "game_id": 22500935
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500935,
+     "player_id": 1626157
+    },
+    {
+     "table": "games",
+     "game_id": 22500949
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500949,
+     "player_id": 1626157
+    },
+    {
+     "table": "games",
+     "game_id": 22500981
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500981,
+     "player_id": 1626157
+    },
+    {
+     "table": "games",
+     "game_id": 22500994
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500994,
+     "player_id": 1626157
+    },
+    {
+     "table": "games",
+     "game_id": 22501003
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501003,
+     "player_id": 1626157
+    },
+    {
+     "table": "games",
+     "game_id": 22501016
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501016,
+     "player_id": 1626157
+    },
+    {
+     "table": "games",
+     "game_id": 22501034
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501034,
+     "player_id": 1626157
+    },
+    {
+     "table": "games",
+     "game_id": 22501048
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501048,
+     "player_id": 1626157
+    },
+    {
+     "table": "games",
+     "game_id": 22501063
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501063,
+     "player_id": 1626157
+    },
+    {
+     "table": "games",
+     "game_id": 22501089
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501089,
+     "player_id": 1626157
+    },
+    {
+     "table": "games",
+     "game_id": 22501102
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501102,
+     "player_id": 1626157
+    },
+    {
+     "table": "games",
+     "game_id": 22501143
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501143,
+     "player_id": 1626157
+    },
+    {
+     "table": "games",
+     "game_id": 22501168
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501168,
+     "player_id": 1626157
+    },
+    {
+     "table": "games",
+     "game_id": 22501176
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501176,
+     "player_id": 1626157
+    }
+   ]
+  }
+ },
+ {
+  "id": "test-010",
+  "tier": "extended",
+  "kind": "single_game_high",
+  "question": "Which opponent had the biggest single-game rebounds total against the Knicks, and what was it?",
+  "answer": {
+   "fields": {
+    "player_name": "str",
+    "rebounds": "int"
+   },
+   "evidence": [
+    "games",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "player_name": "Kel'el Ware",
+   "rebounds": 19,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500398
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500398,
+     "player_id": 1642276
+    }
+   ]
+  }
+ },
+ {
+  "id": "test-011",
+  "tier": "stretch",
+  "kind": "go_ahead",
+  "question": "Who put the Thunder ahead for good in their 113-105 win over the Timberwolves on Nov 26?",
+  "answer": {
+   "fields": {
+    "player_name": "str"
+   },
+   "evidence": [
+    "games",
+    "recaps",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "player_name": "Shai Gilgeous-Alexander",
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500064
+    },
+    {
+     "table": "recaps",
+     "recap_id": 268
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500064,
+     "player_id": 1628983
+    }
+   ]
+  }
+ },
+ {
+  "id": "test-012",
+  "tier": "stretch",
+  "kind": "comeback",
+  "question": "Biggest hole the Pacers climbed out of to win this season: how many points, which opponent, and what was the final?",
+  "answer": {
+   "fields": {
+    "opponent": "str",
+    "deficit": "int",
+    "score": "str"
+   },
+   "evidence": [
+    "games",
+    "recaps"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "opponent": "Nets",
+   "deficit": 18,
+   "score": "115-110",
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500779
+    },
+    {
+     "table": "recaps",
+     "recap_id": 808
+    }
+   ],
+   "accept": []
+  }
+ },
+ {
+  "id": "test-013",
+  "tier": "stretch",
+  "kind": "why_missed",
+  "question": "De'Anthony Melton didn't play for the Warriors against the Thunder on Mar 7. Why?",
+  "answer": {
+   "fields": {
+    "status": "str",
+    "reason": "str"
+   },
+   "evidence": [
+    "availability_notes",
+    "games"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "status": "did not dress",
+   "reason": "injury/illness",
+   "evidence": [
+    {
+     "table": "availability_notes",
+     "note_id": 4004
+    },
+    {
+     "table": "games",
+     "game_id": 22500920
+    }
+   ]
+  }
+ },
+ {
+  "id": "test-014",
+  "tier": "core",
+  "kind": "player_game_stat",
+  "question": "Give me Neemias Queta's assists total from the Bucks game on Dec 11.",
+  "answer": {
+   "fields": {
+    "assists": "int"
+   },
+   "evidence": [
+    "games",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "assists": 0,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22501206
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501206,
+     "player_id": 1629674
+    }
+   ]
+  }
+ },
+ {
+  "id": "test-015",
+  "tier": "core",
+  "kind": "game_result",
+  "question": "Pacers vs. Hawks on Jan 31: what was the final score, and which team won?",
+  "answer": {
+   "fields": {
+    "winner": "str",
+    "score": "str"
+   },
+   "evidence": [
+    "games"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "winner": "Pacers",
+   "score": "129-124",
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500698
+    }
+   ]
+  }
+ },
+ {
+  "id": "test-016",
+  "tier": "core",
+  "kind": "team_leader",
+  "question": "Who paced the Hawks in points when they lost to the Nuggets on Dec 5, and with how many?",
+  "answer": {
+   "fields": {
+    "player_name": "str",
+    "points": "int"
+   },
+   "evidence": [
+    "games",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "player_name": "Nickeil Alexander-Walker",
+   "points": 30,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500340
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500340,
+     "player_id": 1629638
+    }
+   ]
+  }
+ },
+ {
+  "id": "test-017",
+  "tier": "core",
+  "kind": "opener_points",
+  "question": "In the Thunder's opening game, how many points did Shai Gilgeous-Alexander put up?",
+  "answer": {
+   "fields": {
+    "points": "int"
+   },
+   "evidence": [
+    "games",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "points": 35,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500001
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500001,
+     "player_id": 1628983
+    }
+   ]
+  }
+ },
+ {
+  "id": "test-018",
+  "tier": "extended",
+  "kind": "month_total",
+  "question": "Jaylen Brown: total points and games played during March 2026?",
+  "answer": {
+   "fields": {
+    "points": "int",
+    "games": "int"
+   },
+   "evidence": [
+    "games",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "points": 344,
+   "games": 13,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500874
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500874,
+     "player_id": 1627759
+    },
+    {
+     "table": "games",
+     "game_id": 22500894
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500894,
+     "player_id": 1627759
+    },
+    {
+     "table": "games",
+     "game_id": 22500908
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500908,
+     "player_id": 1627759
+    },
+    {
+     "table": "games",
+     "game_id": 22500921
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500921,
+     "player_id": 1627759
+    },
+    {
+     "table": "games",
+     "game_id": 22500942
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500942,
+     "player_id": 1627759
+    },
+    {
+     "table": "games",
+     "game_id": 22500959
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500959,
+     "player_id": 1627759
+    },
+    {
+     "table": "games",
+     "game_id": 22500971
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500971,
+     "player_id": 1627759
+    },
+    {
+     "table": "games",
+     "game_id": 22500986
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500986,
+     "player_id": 1627759
+    },
+    {
+     "table": "games",
+     "game_id": 22500999
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500999,
+     "player_id": 1627759
+    },
+    {
+     "table": "games",
+     "game_id": 22501019
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501019,
+     "player_id": 1627759
+    },
+    {
+     "table": "games",
+     "game_id": 22501035
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501035,
+     "player_id": 1627759
+    },
+    {
+     "table": "games",
+     "game_id": 22501054
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501054,
+     "player_id": 1627759
+    },
+    {
+     "table": "games",
+     "game_id": 22501092
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501092,
+     "player_id": 1627759
+    }
+   ]
+  }
+ },
+ {
+  "id": "test-019",
+  "tier": "extended",
+  "kind": "extreme_margin",
+  "question": "Who did the Celtics beat by the most points this season, by how much, and what was the score?",
+  "answer": {
+   "fields": {
+    "opponent": "str",
+    "margin": "int",
+    "score": "str"
+   },
+   "evidence": [
+    "games"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "opponent": "Wizards",
+   "margin": 45,
+   "score": "146-101",
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500334
+    }
+   ],
+   "accept": []
+  }
+ },
+ {
+  "id": "test-020",
+  "tier": "extended",
+  "kind": "starter_in_losses",
+  "question": "Among Knicks starters, who scored the most combined points in defeats of 20+ points?",
+  "answer": {
+   "fields": {
+    "player_name": "str",
+    "points": "int"
+   },
+   "evidence": [
+    "games",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "player_name": "Jalen Brunson",
+   "points": 37,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500502
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500502,
+     "player_id": 1628973
+    },
+    {
+     "table": "games",
+     "game_id": 22500742
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500742,
+     "player_id": 1628973
+    }
+   ]
+  }
+ },
+ {
+  "id": "test-021",
+  "tier": "extended",
+  "kind": "threshold_games_against",
+  "question": "Who scored at least 30 points against the Cavaliers in the most games this season?",
+  "answer": {
+   "fields": {
+    "player_name": "str",
+    "games": "int"
+   },
+   "evidence": [
+    "games",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "player_name": "Paolo Banchero",
+   "games": 2,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500658
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500658,
+     "player_id": 1631094
+    },
+    {
+     "table": "games",
+     "game_id": 22501049
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501049,
+     "player_id": 1631094
+    }
+   ]
+  }
+ },
+ {
+  "id": "test-022",
+  "tier": "extended",
+  "kind": "after_break",
+  "question": "Brice Sensabaugh after the All-Star break: how many points, over how many games?",
+  "answer": {
+   "fields": {
+    "points": "int",
+    "games": "int"
+   },
+   "evidence": [
+    "games",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "points": 451,
+   "games": 22,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500804
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500804,
+     "player_id": 1641729
+    },
+    {
+     "table": "games",
+     "game_id": 22500830
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500830,
+     "player_id": 1641729
+    },
+    {
+     "table": "games",
+     "game_id": 22500856
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500856,
+     "player_id": 1641729
+    },
+    {
+     "table": "games",
+     "game_id": 22500867
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500867,
+     "player_id": 1641729
+    },
+    {
+     "table": "games",
+     "game_id": 22500881
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500881,
+     "player_id": 1641729
+    },
+    {
+     "table": "games",
+     "game_id": 22500895
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500895,
+     "player_id": 1641729
+    },
+    {
+     "table": "games",
+     "game_id": 22500900
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500900,
+     "player_id": 1641729
+    },
+    {
+     "table": "games",
+     "game_id": 22500919
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500919,
+     "player_id": 1641729
+    },
+    {
+     "table": "games",
+     "game_id": 22500934
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500934,
+     "player_id": 1641729
+    },
+    {
+     "table": "games",
+     "game_id": 22500949
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500949,
+     "player_id": 1641729
+    },
+    {
+     "table": "games",
+     "game_id": 22500967
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500967,
+     "player_id": 1641729
+    },
+    {
+     "table": "games",
+     "game_id": 22500982
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500982,
+     "player_id": 1641729
+    },
+    {
+     "table": "games",
+     "game_id": 22501004
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501004,
+     "player_id": 1641729
+    },
+    {
+     "table": "games",
+     "game_id": 22501043
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501043,
+     "player_id": 1641729
+    },
+    {
+     "table": "games",
+     "game_id": 22501072
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501072,
+     "player_id": 1641729
+    },
+    {
+     "table": "games",
+     "game_id": 22501081
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501081,
+     "player_id": 1641729
+    },
+    {
+     "table": "games",
+     "game_id": 22501096
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501096,
+     "player_id": 1641729
+    },
+    {
+     "table": "games",
+     "game_id": 22501112
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501112,
+     "player_id": 1641729
+    },
+    {
+     "table": "games",
+     "game_id": 22501124
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501124,
+     "player_id": 1641729
+    },
+    {
+     "table": "games",
+     "game_id": 22501139
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501139,
+     "player_id": 1641729
+    },
+    {
+     "table": "games",
+     "game_id": 22501153
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501153,
+     "player_id": 1641729
+    },
+    {
+     "table": "games",
+     "game_id": 22501198
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501198,
+     "player_id": 1641729
+    }
+   ]
+  }
+ },
+ {
+  "id": "test-023",
+  "tier": "extended",
+  "kind": "single_game_high",
+  "question": "Which opponent had the biggest single-game points total against the Suns, and what was it?",
+  "answer": {
+   "fields": {
+    "player_name": "str",
+    "points": "int"
+   },
+   "evidence": [
+    "games",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "player_name": "Lauri Markkanen",
+   "points": 51,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500120
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500120,
+     "player_id": 1628374
+    }
+   ]
+  }
+ },
+ {
+  "id": "test-024",
+  "tier": "stretch",
+  "kind": "go_ahead",
+  "question": "Who put the Nuggets ahead for good in their 114-110 win over the Celtics on Jan 7?",
+  "answer": {
+   "fields": {
+    "player_name": "str"
+   },
+   "evidence": [
+    "games",
+    "recaps",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "player_name": "Jamal Murray",
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500520
+    },
+    {
+     "table": "recaps",
+     "recap_id": 546
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500520,
+     "player_id": 1627750
+    }
+   ]
+  }
+ },
+ {
+  "id": "test-025",
+  "tier": "stretch",
+  "kind": "comeback",
+  "question": "Biggest hole the Magic climbed out of to win this season: how many points, which opponent, and what was the final?",
+  "answer": {
+   "fields": {
+    "opponent": "str",
+    "deficit": "int",
+    "score": "str"
+   },
+   "evidence": [
+    "games",
+    "recaps"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "opponent": "Grizzlies",
+   "deficit": 20,
+   "score": "118-111",
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500578
+    },
+    {
+     "table": "recaps",
+     "recap_id": 604
+    }
+   ],
+   "accept": []
+  }
+ },
+ {
+  "id": "test-026",
+  "tier": "stretch",
+  "kind": "why_missed",
+  "question": "Patrick Williams didn't play for the Bulls against the 76ers on Dec 26. Why?",
+  "answer": {
+   "fields": {
+    "status": "str",
+    "reason": "str"
+   },
+   "evidence": [
+    "availability_notes",
+    "games"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "status": "did not play",
+   "reason": "coach's decision",
+   "evidence": [
+    {
+     "table": "availability_notes",
+     "note_id": 1780
+    },
+    {
+     "table": "games",
+     "game_id": 22500427
+    }
+   ]
+  }
+ },
+ {
+  "id": "test-027",
+  "tier": "core",
+  "kind": "player_game_stat",
+  "question": "Give me Sion James' points total from the Warriors game on Dec 31.",
+  "answer": {
+   "fields": {
+    "points": "int"
+   },
+   "evidence": [
+    "games",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "points": 9,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500462
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500462,
+     "player_id": 1642883
+    }
+   ]
+  }
+ },
+ {
+  "id": "test-028",
+  "tier": "core",
+  "kind": "game_result",
+  "question": "Trail Blazers vs. Nuggets on Feb 20: what was the final score, and which team won?",
+  "answer": {
+   "fields": {
+    "winner": "str",
+    "score": "str"
+   },
+   "evidence": [
+    "games"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "winner": "Nuggets",
+   "score": "157-103",
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500810
+    }
+   ]
+  }
+ },
+ {
+  "id": "test-029",
+  "tier": "core",
+  "kind": "team_leader",
+  "question": "Who paced the Timberwolves in points when they beat the Rockets on Apr 10, and with how many?",
+  "answer": {
+   "fields": {
+    "player_name": "str",
+    "points": "int"
+   },
+   "evidence": [
+    "games",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "player_name": "Terrence Shannon Jr.",
+   "points": 23,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22501178
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501178,
+     "player_id": 1630545
+    }
+   ]
+  }
+ },
+ {
+  "id": "test-030",
+  "tier": "core",
+  "kind": "opener_points",
+  "question": "In the Thunder's opening game, how many points did Chris Youngblood put up?",
+  "answer": {
+   "fields": {
+    "points": "int"
+   },
+   "evidence": [
+    "games",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "points": 0,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500001
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500001,
+     "player_id": 1642959
+    }
+   ]
+  }
+ },
+ {
+  "id": "test-031",
+  "tier": "extended",
+  "kind": "month_total",
+  "question": "Duncan Robinson: total rebounds and games played during December 2025?",
+  "answer": {
+   "fields": {
+    "rebounds": "int",
+    "games": "int"
+   },
+   "evidence": [
+    "games",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "rebounds": 32,
+   "games": 11,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500342
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500342,
+     "player_id": 1629130
+    },
+    {
+     "table": "games",
+     "game_id": 22500353
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500353,
+     "player_id": 1629130
+    },
+    {
+     "table": "games",
+     "game_id": 22500376
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500376,
+     "player_id": 1629130
+    },
+    {
+     "table": "games",
+     "game_id": 22500390
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500390,
+     "player_id": 1629130
+    },
+    {
+     "table": "games",
+     "game_id": 22500408
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500408,
+     "player_id": 1629130
+    },
+    {
+     "table": "games",
+     "game_id": 22500421
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500421,
+     "player_id": 1629130
+    },
+    {
+     "table": "games",
+     "game_id": 22500430
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500430,
+     "player_id": 1629130
+    },
+    {
+     "table": "games",
+     "game_id": 22500445
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500445,
+     "player_id": 1629130
+    },
+    {
+     "table": "games",
+     "game_id": 22500460
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500460,
+     "player_id": 1629130
+    },
+    {
+     "table": "games",
+     "game_id": 22501210
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501210,
+     "player_id": 1629130
+    },
+    {
+     "table": "games",
+     "game_id": 22501222
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501222,
+     "player_id": 1629130
+    }
+   ]
+  }
+ },
+ {
+  "id": "test-032",
+  "tier": "extended",
+  "kind": "extreme_margin",
+  "question": "Who did the Pelicans beat by the most points this season, by how much, and what was the score?",
+  "answer": {
+   "fields": {
+    "opponent": "str",
+    "margin": "int",
+    "score": "str"
+   },
+   "evidence": [
+    "games"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "opponent": "Kings",
+   "margin": 26,
+   "score": "120-94",
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500766
+    }
+   ],
+   "accept": []
+  }
+ },
+ {
+  "id": "test-033",
+  "tier": "extended",
+  "kind": "starter_in_losses",
+  "question": "Among Mavericks starters, who scored the most combined points in defeats of 10+ points?",
+  "answer": {
+   "fields": {
+    "player_name": "str",
+    "points": "int"
+   },
+   "evidence": [
+    "games",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "player_name": "Cooper Flagg",
+   "points": 482,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500004
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500004,
+     "player_id": 1642843
+    },
+    {
+     "table": "games",
+     "game_id": 22500011
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500011,
+     "player_id": 1642843
+    },
+    {
+     "table": "games",
+     "game_id": 22500034
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500034,
+     "player_id": 1642843
+    },
+    {
+     "table": "games",
+     "game_id": 22500078
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500078,
+     "player_id": 1642843
+    },
+    {
+     "table": "games",
+     "game_id": 22500096
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500096,
+     "player_id": 1642843
+    },
+    {
+     "table": "games",
+     "game_id": 22500147
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500147,
+     "player_id": 1642843
+    },
+    {
+     "table": "games",
+     "game_id": 22500246
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500246,
+     "player_id": 1642843
+    },
+    {
+     "table": "games",
+     "game_id": 22500349
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500349,
+     "player_id": 1642843
+    },
+    {
+     "table": "games",
+     "game_id": 22500473
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500473,
+     "player_id": 1642843
+    },
+    {
+     "table": "games",
+     "game_id": 22500546
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500546,
+     "player_id": 1642843
+    },
+    {
+     "table": "games",
+     "game_id": 22500652
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500652,
+     "player_id": 1642843
+    },
+    {
+     "table": "games",
+     "game_id": 22500721
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500721,
+     "player_id": 1642843
+    },
+    {
+     "table": "games",
+     "game_id": 22500738
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500738,
+     "player_id": 1642843
+    },
+    {
+     "table": "games",
+     "game_id": 22500749
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500749,
+     "player_id": 1642843
+    },
+    {
+     "table": "games",
+     "game_id": 22500908
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500908,
+     "player_id": 1642843
+    },
+    {
+     "table": "games",
+     "game_id": 22500924
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500924,
+     "player_id": 1642843
+    },
+    {
+     "table": "games",
+     "game_id": 22500939
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500939,
+     "player_id": 1642843
+    },
+    {
+     "table": "games",
+     "game_id": 22500965
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500965,
+     "player_id": 1642843
+    },
+    {
+     "table": "games",
+     "game_id": 22500988
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500988,
+     "player_id": 1642843
+    },
+    {
+     "table": "games",
+     "game_id": 22501006
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501006,
+     "player_id": 1642843
+    },
+    {
+     "table": "games",
+     "game_id": 22501095
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501095,
+     "player_id": 1642843
+    },
+    {
+     "table": "games",
+     "game_id": 22501127
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501127,
+     "player_id": 1642843
+    },
+    {
+     "table": "games",
+     "game_id": 22501156
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501156,
+     "player_id": 1642843
+    },
+    {
+     "table": "games",
+     "game_id": 22501180
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501180,
+     "player_id": 1642843
+    }
+   ]
+  }
+ },
+ {
+  "id": "test-034",
+  "tier": "extended",
+  "kind": "threshold_games_against",
+  "question": "Who scored at least 25 points against the Jazz in the most games this season?",
+  "answer": {
+   "fields": {
+    "player_name": "str",
+    "games": "int"
+   },
+   "evidence": [
+    "games",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "player_name": "Jamal Murray",
+   "games": 4,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500405
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500405,
+     "player_id": 1627750
+    },
+    {
+     "table": "games",
+     "game_id": 22500881
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500881,
+     "player_id": 1627750
+    },
+    {
+     "table": "games",
+     "game_id": 22501072
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501072,
+     "player_id": 1627750
+    },
+    {
+     "table": "games",
+     "game_id": 22501112
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501112,
+     "player_id": 1627750
+    }
+   ]
+  }
+ },
+ {
+  "id": "test-035",
+  "tier": "extended",
+  "kind": "after_break",
+  "question": "CJ McCollum after the All-Star break: how many points, over how many games?",
+  "answer": {
+   "fields": {
+    "points": "int",
+    "games": "int"
+   },
+   "evidence": [
+    "games",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "points": 467,
+   "games": 25,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500794
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500794,
+     "player_id": 203468
+    },
+    {
+     "table": "games",
+     "game_id": 22500805
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500805,
+     "player_id": 203468
+    },
+    {
+     "table": "games",
+     "game_id": 22500818
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500818,
+     "player_id": 203468
+    },
+    {
+     "table": "games",
+     "game_id": 22500832
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500832,
+     "player_id": 203468
+    },
+    {
+     "table": "games",
+     "game_id": 22500850
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500850,
+     "player_id": 203468
+    },
+    {
+     "table": "games",
+     "game_id": 22500873
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500873,
+     "player_id": 203468
+    },
+    {
+     "table": "games",
+     "game_id": 22500897
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500897,
+     "player_id": 203468
+    },
+    {
+     "table": "games",
+     "game_id": 22500917
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500917,
+     "player_id": 203468
+    },
+    {
+     "table": "games",
+     "game_id": 22500939
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500939,
+     "player_id": 203468
+    },
+    {
+     "table": "games",
+     "game_id": 22500956
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500956,
+     "player_id": 203468
+    },
+    {
+     "table": "games",
+     "game_id": 22500970
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500970,
+     "player_id": 203468
+    },
+    {
+     "table": "games",
+     "game_id": 22500983
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500983,
+     "player_id": 203468
+    },
+    {
+     "table": "games",
+     "game_id": 22501006
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501006,
+     "player_id": 203468
+    },
+    {
+     "table": "games",
+     "game_id": 22501018
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501018,
+     "player_id": 203468
+    },
+    {
+     "table": "games",
+     "game_id": 22501026
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501026,
+     "player_id": 203468
+    },
+    {
+     "table": "games",
+     "game_id": 22501037
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501037,
+     "player_id": 203468
+    },
+    {
+     "table": "games",
+     "game_id": 22501051
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501051,
+     "player_id": 203468
+    },
+    {
+     "table": "games",
+     "game_id": 22501067
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501067,
+     "player_id": 203468
+    },
+    {
+     "table": "games",
+     "game_id": 22501078
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501078,
+     "player_id": 203468
+    },
+    {
+     "table": "games",
+     "game_id": 22501092
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501092,
+     "player_id": 203468
+    },
+    {
+     "table": "games",
+     "game_id": 22501107
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501107,
+     "player_id": 203468
+    },
+    {
+     "table": "games",
+     "game_id": 22501122
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501122,
+     "player_id": 203468
+    },
+    {
+     "table": "games",
+     "game_id": 22501143
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501143,
+     "player_id": 203468
+    },
+    {
+     "table": "games",
+     "game_id": 22501158
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501158,
+     "player_id": 203468
+    },
+    {
+     "table": "games",
+     "game_id": 22501173
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501173,
+     "player_id": 203468
+    }
+   ]
+  }
+ },
+ {
+  "id": "test-036",
+  "tier": "extended",
+  "kind": "single_game_high",
+  "question": "Which opponent had the biggest single-game assists total against the Mavericks, and what was it?",
+  "answer": {
+   "fields": {
+    "player_name": "str",
+    "assists": "int"
+   },
+   "evidence": [
+    "games",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "player_name": "Nikola Jokic",
+   "assists": 19,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22501059
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501059,
+     "player_id": 203999
+    }
+   ]
+  }
+ },
+ {
+  "id": "test-037",
+  "tier": "stretch",
+  "kind": "go_ahead",
+  "question": "Who put the Suns ahead for good in their 113-110 win over the Magic on Feb 21?",
+  "answer": {
+   "fields": {
+    "player_name": "str"
+   },
+   "evidence": [
+    "games",
+    "recaps",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "player_name": "Jalen Green",
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500811
+    },
+    {
+     "table": "recaps",
+     "recap_id": 840
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500811,
+     "player_id": 1630224
+    }
+   ]
+  }
+ },
+ {
+  "id": "test-038",
+  "tier": "stretch",
+  "kind": "comeback",
+  "question": "Biggest hole the Hawks climbed out of to win this season: how many points, which opponent, and what was the final?",
+  "answer": {
+   "fields": {
+    "opponent": "str",
+    "deficit": "int",
+    "score": "str"
+   },
+   "evidence": [
+    "games",
+    "recaps"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "opponent": "Suns",
+   "deficit": 22,
+   "score": "124-122",
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500239
+    },
+    {
+     "table": "recaps",
+     "recap_id": 198
+    }
+   ],
+   "accept": []
+  }
+ },
+ {
+  "id": "test-039",
+  "tier": "stretch",
+  "kind": "why_missed",
+  "question": "Will Richard didn't play for the Warriors against the Kings on Apr 7. Why?",
+  "answer": {
+   "fields": {
+    "status": "str",
+    "reason": "str"
+   },
+   "evidence": [
+    "availability_notes",
+    "games"
+   ]
+  },
+  "gold": {
+   "answerable": true,
+   "status": "did not dress",
+   "reason": "injury/illness",
+   "evidence": [
+    {
+     "table": "availability_notes",
+     "note_id": 5143
+    },
+    {
+     "table": "games",
+     "game_id": 22501154
+    }
+   ]
+  }
+ },
+ {
+  "id": "test-040",
+  "tier": "core",
+  "kind": "player_game_stat",
+  "question": "Give me Zaccharie Risacher's points total from the Grizzlies game on Jan 21.",
+  "answer": {
+   "fields": {
+    "points": "int"
+   },
+   "evidence": [
+    "games",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": false,
+   "evidence": []
+  }
+ },
+ {
+  "id": "test-041",
+  "tier": "core",
+  "kind": "game_result",
+  "question": "Grizzlies vs. Bulls on Mar 1: what was the final score, and which team won?",
+  "answer": {
+   "fields": {
+    "winner": "str",
+    "score": "str"
+   },
+   "evidence": [
+    "games"
+   ]
+  },
+  "gold": {
+   "answerable": false,
+   "evidence": []
+  }
+ },
+ {
+  "id": "test-042",
+  "tier": "core",
+  "kind": "opener_points",
+  "question": "In the Pacers' opening game, how many points did Ivica Zubac put up?",
+  "answer": {
+   "fields": {
+    "points": "int"
+   },
+   "evidence": [
+    "games",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": false,
+   "evidence": []
+  }
+ },
+ {
+  "id": "test-043",
+  "tier": "stretch",
+  "kind": "why_missed",
+  "question": "Donovan Clingan didn't play for the Trail Blazers against the Magic on Dec 23. Why?",
+  "answer": {
+   "fields": {
+    "status": "str",
+    "reason": "str"
+   },
+   "evidence": [
+    "availability_notes",
+    "games"
+   ]
+  },
+  "gold": {
+   "answerable": false,
+   "evidence": []
+  }
+ },
+ {
+  "id": "test-044",
+  "tier": "core",
+  "kind": "player_game_stat",
+  "question": "Give me Jackson Merrill's points total from the Grizzlies game on Feb 20.",
+  "answer": {
+   "fields": {
+    "points": "int"
+   },
+   "evidence": [
+    "games",
+    "box_scores"
+   ]
+  },
+  "gold": {
+   "answerable": false,
+   "evidence": []
+  }
+ }
+]

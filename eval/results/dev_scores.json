@@ -1,0 +1,522 @@
+{
+ "summary": {
+  "overall": {
+   "n": 44,
+   "accuracy": 1.0,
+   "correct": 44,
+   "wrong": 0,
+   "false_abstain": 0,
+   "hallucination": 0,
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  "by_tier": {
+   "core": {
+    "n": 16,
+    "accuracy": 1.0,
+    "correct": 16,
+    "wrong": 0,
+    "false_abstain": 0,
+    "hallucination": 0,
+    "evidence_precision": 1.0,
+    "evidence_recall": 1.0
+   },
+   "extended": {
+    "n": 18,
+    "accuracy": 1.0,
+    "correct": 18,
+    "wrong": 0,
+    "false_abstain": 0,
+    "hallucination": 0,
+    "evidence_precision": 1.0,
+    "evidence_recall": 1.0
+   },
+   "stretch": {
+    "n": 10,
+    "accuracy": 1.0,
+    "correct": 10,
+    "wrong": 0,
+    "false_abstain": 0,
+    "hallucination": 0,
+    "evidence_precision": 1.0,
+    "evidence_recall": 1.0
+   }
+  },
+  "by_kind": {
+   "after_break": {
+    "n": 3,
+    "accuracy": 1.0,
+    "correct": 3,
+    "wrong": 0,
+    "false_abstain": 0,
+    "hallucination": 0,
+    "evidence_precision": 1.0,
+    "evidence_recall": 1.0
+   },
+   "comeback": {
+    "n": 3,
+    "accuracy": 1.0,
+    "correct": 3,
+    "wrong": 0,
+    "false_abstain": 0,
+    "hallucination": 0,
+    "evidence_precision": 1.0,
+    "evidence_recall": 1.0
+   },
+   "extreme_margin": {
+    "n": 3,
+    "accuracy": 1.0,
+    "correct": 3,
+    "wrong": 0,
+    "false_abstain": 0,
+    "hallucination": 0,
+    "evidence_precision": 1.0,
+    "evidence_recall": 1.0
+   },
+   "game_result": {
+    "n": 4,
+    "accuracy": 1.0,
+    "correct": 4,
+    "wrong": 0,
+    "false_abstain": 0,
+    "hallucination": 0,
+    "evidence_precision": 1.0,
+    "evidence_recall": 1.0
+   },
+   "go_ahead": {
+    "n": 3,
+    "accuracy": 1.0,
+    "correct": 3,
+    "wrong": 0,
+    "false_abstain": 0,
+    "hallucination": 0,
+    "evidence_precision": 1.0,
+    "evidence_recall": 1.0
+   },
+   "month_total": {
+    "n": 3,
+    "accuracy": 1.0,
+    "correct": 3,
+    "wrong": 0,
+    "false_abstain": 0,
+    "hallucination": 0,
+    "evidence_precision": 1.0,
+    "evidence_recall": 1.0
+   },
+   "opener_points": {
+    "n": 4,
+    "accuracy": 1.0,
+    "correct": 4,
+    "wrong": 0,
+    "false_abstain": 0,
+    "hallucination": 0,
+    "evidence_precision": 1.0,
+    "evidence_recall": 1.0
+   },
+   "player_game_stat": {
+    "n": 5,
+    "accuracy": 1.0,
+    "correct": 5,
+    "wrong": 0,
+    "false_abstain": 0,
+    "hallucination": 0,
+    "evidence_precision": 1.0,
+    "evidence_recall": 1.0
+   },
+   "single_game_high": {
+    "n": 3,
+    "accuracy": 1.0,
+    "correct": 3,
+    "wrong": 0,
+    "false_abstain": 0,
+    "hallucination": 0,
+    "evidence_precision": 1.0,
+    "evidence_recall": 1.0
+   },
+   "starter_in_losses": {
+    "n": 3,
+    "accuracy": 1.0,
+    "correct": 3,
+    "wrong": 0,
+    "false_abstain": 0,
+    "hallucination": 0,
+    "evidence_precision": 1.0,
+    "evidence_recall": 1.0
+   },
+   "team_leader": {
+    "n": 3,
+    "accuracy": 1.0,
+    "correct": 3,
+    "wrong": 0,
+    "false_abstain": 0,
+    "hallucination": 0,
+    "evidence_precision": 1.0,
+    "evidence_recall": 1.0
+   },
+   "threshold_games_against": {
+    "n": 3,
+    "accuracy": 1.0,
+    "correct": 3,
+    "wrong": 0,
+    "false_abstain": 0,
+    "hallucination": 0,
+    "evidence_precision": 1.0,
+    "evidence_recall": 1.0
+   },
+   "why_missed": {
+    "n": 4,
+    "accuracy": 1.0,
+    "correct": 4,
+    "wrong": 0,
+    "false_abstain": 0,
+    "hallucination": 0,
+    "evidence_precision": 1.0,
+    "evidence_recall": 1.0
+   }
+  }
+ },
+ "grades": [
+  {
+   "id": "dev-001",
+   "tier": "core",
+   "kind": "player_game_stat",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "dev-002",
+   "tier": "core",
+   "kind": "game_result",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "dev-003",
+   "tier": "core",
+   "kind": "team_leader",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "dev-004",
+   "tier": "core",
+   "kind": "opener_points",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "dev-005",
+   "tier": "extended",
+   "kind": "month_total",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "dev-006",
+   "tier": "extended",
+   "kind": "extreme_margin",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "dev-007",
+   "tier": "extended",
+   "kind": "starter_in_losses",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "dev-008",
+   "tier": "extended",
+   "kind": "threshold_games_against",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "dev-009",
+   "tier": "extended",
+   "kind": "after_break",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "dev-010",
+   "tier": "extended",
+   "kind": "single_game_high",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "dev-011",
+   "tier": "stretch",
+   "kind": "go_ahead",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "dev-012",
+   "tier": "stretch",
+   "kind": "comeback",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "dev-013",
+   "tier": "stretch",
+   "kind": "why_missed",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "dev-014",
+   "tier": "core",
+   "kind": "player_game_stat",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "dev-015",
+   "tier": "core",
+   "kind": "game_result",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "dev-016",
+   "tier": "core",
+   "kind": "team_leader",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "dev-017",
+   "tier": "core",
+   "kind": "opener_points",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "dev-018",
+   "tier": "extended",
+   "kind": "month_total",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "dev-019",
+   "tier": "extended",
+   "kind": "extreme_margin",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "dev-020",
+   "tier": "extended",
+   "kind": "starter_in_losses",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "dev-021",
+   "tier": "extended",
+   "kind": "threshold_games_against",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "dev-022",
+   "tier": "extended",
+   "kind": "after_break",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "dev-023",
+   "tier": "extended",
+   "kind": "single_game_high",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "dev-024",
+   "tier": "stretch",
+   "kind": "go_ahead",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "dev-025",
+   "tier": "stretch",
+   "kind": "comeback",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "dev-026",
+   "tier": "stretch",
+   "kind": "why_missed",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "dev-027",
+   "tier": "core",
+   "kind": "player_game_stat",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "dev-028",
+   "tier": "core",
+   "kind": "game_result",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "dev-029",
+   "tier": "core",
+   "kind": "team_leader",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "dev-030",
+   "tier": "core",
+   "kind": "opener_points",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "dev-031",
+   "tier": "extended",
+   "kind": "month_total",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "dev-032",
+   "tier": "extended",
+   "kind": "extreme_margin",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "dev-033",
+   "tier": "extended",
+   "kind": "starter_in_losses",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "dev-034",
+   "tier": "extended",
+   "kind": "threshold_games_against",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "dev-035",
+   "tier": "extended",
+   "kind": "after_break",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "dev-036",
+   "tier": "extended",
+   "kind": "single_game_high",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "dev-037",
+   "tier": "stretch",
+   "kind": "go_ahead",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "dev-038",
+   "tier": "stretch",
+   "kind": "comeback",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "dev-039",
+   "tier": "stretch",
+   "kind": "why_missed",
+   "outcome": "correct",
+   "evidence_precision": 1.0,
+   "evidence_recall": 1.0
+  },
+  {
+   "id": "dev-040",
+   "tier": "core",
+   "kind": "player_game_stat",
+   "outcome": "correct"
+  },
+  {
+   "id": "dev-041",
+   "tier": "core",
+   "kind": "game_result",
+   "outcome": "correct"
+  },
+  {
+   "id": "dev-042",
+   "tier": "core",
+   "kind": "opener_points",
+   "outcome": "correct"
+  },
+  {
+   "id": "dev-043",
+   "tier": "stretch",
+   "kind": "why_missed",
+   "outcome": "correct"
+  },
+  {
+   "id": "dev-044",
+   "tier": "core",
+   "kind": "player_game_stat",
+   "outcome": "correct"
+  }
+ ]
+}

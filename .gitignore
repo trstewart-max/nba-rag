@@ -1,0 +1,16 @@
+# The take-home this project was inspired by. Its data and text are confidential; never commit them.
+example RAG/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Built from the Kaggle download by `python -m nba_rag.build`; rebuild instead of committing.
+data/processed/
+data/cache/
+
+# Local run output (eval/results/ is committed on purpose)
+*.log
+.env

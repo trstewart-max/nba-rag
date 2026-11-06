@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NBA Season RAG</title>
+<meta name="description" content="A local retrieval-augmented QA pipeline over the 2025-26 NBA season: SQL + pgvector retrieval, a 2B LLM, verified evidence, and honest abstention.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='14' fill='%23e8702a'/><path d='M2 16h28M16 2v28M6 6c6 5 6 15 0 20M26 6c-6 5-6 15 0 20' stroke='%23231a14' stroke-width='1.6' fill='none'/></svg>">
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="#top"><span class="ball" aria-hidden="true"></span>NBA Season RAG</a>
+    <nav>
+      <a href="#how">How it works</a>
+      <a href="#results">Results</a>
+      <a href="#explore">Explorer</a>
+      <a href="#ask" class="live-only" hidden>Ask</a>
+      <a id="repo-link" href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero wrap">
+    <p class="eyebrow">Retrieval-augmented QA · 2025-26 NBA season · runs locally</p>
+    <h1>Ask a question about the season. Get an answer that cites its sources, or a straight “I can't tell from the data.”</h1>
+    <p class="lede">A RAG pipeline over real box scores and play-by-play. SQL and Python do the counting,
+      pgvector finds the right text, and a 2-billion-parameter model only makes the judgment calls.
+      Then every field gets checked against the rows it came from.</p>
+    <div class="metrics" id="metrics"></div>
+  </section>
+
+  <section id="how" class="wrap section">
+    <h2>How it works</h2>
+    <p class="section-lede">Similarity search alone can't answer “season opener” or “most total points.”
+      Every question goes through the same general pipeline. Nothing branches on question ids or wording templates.</p>
+    <ol class="pipeline">
+      <li><span class="step">1</span><h3>Link &amp; parse</h3><p>Match teams, players (accent- and suffix-insensitive), dates, scores, stats and season phase with deterministic rules.</p><code>catalog.py · parsing.py</code></li>
+      <li><span class="step">2</span><h3>Plan</h3><p>The LLM proposes filters (won/lost, thresholds, which game, most/least). A filter survives only if the question's own words support it.</p><code>planner.py</code></li>
+      <li><span class="step">3</span><h3>Retrieve</h3><p>SQL pulls the candidate games, box scores, recaps and notes. When too many games are left, pgvector ranks the text within them.</p><code>retrieval.py</code></li>
+      <li><span class="step">4</span><h3>Reason</h3><p>Python computes order, winners, margins, totals, single-game bests and threshold counts. These become short labeled tables, and each row carries its evidence.</p><code>reasoning.py</code></li>
+      <li><span class="step">5</span><h3>Read</h3><p>For text facts, the LLM names the recap or note row that states the answer. A number only recaps contain is read game by game and ranked in Python.</p><code>answer.py</code></li>
+      <li><span class="step">6</span><h3>Verify &amp; cite</h3><p>Every field must match its row. Evidence must cover every table the answer cites. If anything fails, it abstains with a reason.</p><code>answer.py</code></li>
+    </ol>
+    <div class="decisions">
+      <div><h3>Data</h3><p id="data-blurb">Kaggle “Historical NBA Data and Player Box Scores”, cut to one season. The source has no prose, so recaps are written from play-by-play events (comebacks, go-ahead shots) and availability notes from the box score's did-not-play comments.</p></div>
+      <div><h3>Evaluation</h3><p>Gold answers are computed independently with pandas. Recap questions take their gold from play-by-play facts the pipeline never sees. The test set was written after development ended and run once, with phrasings, players, teams and dates the pipeline never saw.</p></div>
+      <div><h3>Reproducibility</h3><p>Temperature 0 and a fixed seed. Exact vector scans with stable tie-breaks. The same run on the same data gives the same answers.</p></div>
+    </div>
+  </section>
+
+  <section id="results" class="wrap section">
+    <h2>Results</h2>
+    <p class="section-lede" id="results-lede"></p>
+    <div class="scorecards" id="scorecards"></div>
+    <h3 class="sub">By question kind</h3>
+    <div class="kinds" id="kinds"></div>
+  </section>
+
+  <section id="ask" class="wrap section live-only" hidden>
+    <h2>Ask it</h2>
+    <p class="section-lede">Connected to the local API. Answers come from the same code path the evaluation uses.</p>
+    <form id="ask-form" class="ask">
+      <input id="ask-input" type="text" placeholder="e.g. Who led the Knicks in rebounds in their win over the Celtics on 2026-03-01?" autocomplete="off">
+      <select id="ask-kind" aria-label="Answer kind"><option value="">auto-detect kind</option></select>
+      <button type="submit">Ask</button>
+    </form>
+    <div id="ask-out"></div>
+  </section>
+
+  <section id="explore" class="wrap section">
+    <h2>Question explorer</h2>
+    <p class="section-lede">Every evaluated question: the pipeline's answer, the gold answer, the evidence it cited, and the exact context the model saw.</p>
+    <div class="filters">
+      <div class="chips" id="f-split"></div>
+      <div class="chips" id="f-tier"></div>
+      <div class="chips" id="f-outcome"></div>
+      <input id="f-search" type="search" placeholder="Search questions, players, teams…">
+    </div>
+    <p class="count" id="count"></p>
+    <div id="cards" class="cards"></div>
+  </section>
+</main>
+
+<footer class="wrap footer">
+  <p>Data: <a href="https://www.kaggle.com/datasets/eoinamoore/historical-nba-data-and-player-box-scores" target="_blank" rel="noopener">Historical NBA Data and Player Box Scores</a> (Kaggle, eoinamoore). Not affiliated with the NBA.
+  <span id="generated"></span></p>
+</footer>
+<script src="assets/app.js"></script>
+</body>
+</html>

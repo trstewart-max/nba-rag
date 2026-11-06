@@ -1,0 +1,3728 @@
+[
+ {
+  "id": "heldout-001",
+  "result": {
+   "answerable": true,
+   "rebounds": 13,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22501089
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501089,
+     "player_id": 1628392
+    }
+   ]
+  },
+  "trace": {
+   "plan": {
+    "focus_team_id": 1610612752,
+    "result": "any",
+    "min_margin": null,
+    "min_value": null,
+    "starters_only": false,
+    "bench_only": false,
+    "players_from": "opponents",
+    "game_pick": "all",
+    "rank": "most",
+    "per_game": false,
+    "game_number": null,
+    "stat": "rebounds",
+    "season_phase": null,
+    "venue": null
+   },
+   "teams": [
+    "Knicks"
+   ],
+   "players": [
+    "Isaiah Hartenstein"
+   ],
+   "window": [
+    "2026-03-29",
+    "2026-03-29"
+   ],
+   "games_matched": 1,
+   "retrieval": [],
+   "context": "Teams named: Knicks\nPlayers named: Isaiah Hartenstein\nGames matching the question: 1\nGames (by margin, largest first):\n[G1] 2026-03-29 Knicks at Thunder: Thunder beat Knicks 111-100 (margin 11); Knicks lost, opponent Thunder, Knicks regular game #75\nPlayers over those games (by total rebounds, largest first):\n[P1] Isaiah Hartenstein (Thunder): 1 games, 13 total rebounds, best game 13",
+   "answer_row": "P1",
+   "llm_calls": 1,
+   "seconds": 3.04
+  }
+ },
+ {
+  "id": "heldout-002",
+  "result": {
+   "answerable": true,
+   "winner": "Spurs",
+   "score": "132-119",
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22501204
+    }
+   ]
+  },
+  "trace": {
+   "plan": {
+    "focus_team_id": 1610612747,
+    "result": "any",
+    "min_margin": null,
+    "min_value": null,
+    "starters_only": false,
+    "bench_only": false,
+    "players_from": "focus",
+    "game_pick": "all",
+    "rank": "most",
+    "per_game": false,
+    "game_number": null,
+    "stat": "points",
+    "season_phase": null,
+    "venue": null
+   },
+   "teams": [
+    "Lakers",
+    "Spurs"
+   ],
+   "players": [],
+   "window": [
+    "2025-12-10",
+    "2025-12-10"
+   ],
+   "games_matched": 1,
+   "retrieval": [],
+   "context": "Teams named: Lakers, Spurs\nGames matching the question: 1\nGames (by margin, largest first):\n[G1] 2025-12-10 Spurs at Lakers: Spurs beat Lakers 132-119 (margin 13); Lakers lost, opponent Spurs, Lakers regular game #24",
+   "answer_row": "G1",
+   "llm_calls": 1,
+   "seconds": 2.9
+  }
+ },
+ {
+  "id": "heldout-003",
+  "result": {
+   "answerable": true,
+   "player_name": "Jaime Jaquez Jr.",
+   "points": 21,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500414
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500414,
+     "player_id": 1631170
+    }
+   ]
+  },
+  "trace": {
+   "plan": {
+    "focus_team_id": 1610612748,
+    "result": "any",
+    "min_margin": null,
+    "min_value": null,
+    "starters_only": false,
+    "bench_only": false,
+    "players_from": "focus",
+    "game_pick": "all",
+    "rank": "most",
+    "per_game": false,
+    "game_number": null,
+    "stat": "points",
+    "season_phase": null,
+    "venue": null
+   },
+   "teams": [
+    "Heat",
+    "Raptors"
+   ],
+   "players": [],
+   "window": [
+    "2025-12-23",
+    "2025-12-23"
+   ],
+   "games_matched": 1,
+   "retrieval": [],
+   "context": "Teams named: Heat, Raptors\nGames matching the question: 1\nGames (by margin, largest first):\n[G1] 2025-12-23 Raptors at Heat: Raptors beat Heat 112-91 (margin 21); Heat lost, opponent Raptors, Heat regular game #30\nPlayers over those games (by total points, largest first):\n[P1] Jaime Jaquez Jr. (Heat): 1 games, 21 total points, best game 21\n[P2] Norman Powell (Heat): 1 games, 17 total points, best game 17\n[P3] Andrew Wiggins (Heat): 1 games, 14 total points, best game 14\n[P4] Dru Smith (Heat): 1 games, 10 total points, best game 10\n[P5] Bam Adebayo (Heat): 1 games, 9 total points, best game 9\n[P6] Kasparas Jakucionis (Heat): 1 games, 7 total points, best game 7\n[P7] Simone Fontecchio (Heat): 1 games, 5 total points, best game 5\n[P8] Kel'el Ware (Heat): 1 games, 5 total points, best game 5",
+   "answer_row": "P1",
+   "llm_calls": 1,
+   "seconds": 2.96
+  }
+ },
+ {
+  "id": "heldout-004",
+  "result": {
+   "answerable": true,
+   "points": 8,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500085
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500085,
+     "player_id": 1641722
+    }
+   ]
+  },
+  "trace": {
+   "plan": {
+    "focus_team_id": 1610612740,
+    "result": "any",
+    "min_margin": null,
+    "min_value": null,
+    "starters_only": false,
+    "bench_only": false,
+    "players_from": "focus",
+    "game_pick": "first",
+    "rank": "most",
+    "per_game": false,
+    "game_number": null,
+    "stat": "points",
+    "season_phase": "regular",
+    "venue": null
+   },
+   "teams": [
+    "Pelicans"
+   ],
+   "players": [
+    "Jordan Hawkins"
+   ],
+   "window": null,
+   "games_matched": 1,
+   "retrieval": [],
+   "context": "Teams named: Pelicans\nPlayers named: Jordan Hawkins\nGames matching the question: 1\nGames (by margin, largest first):\n[G1] 2025-10-22 Pelicans at Grizzlies: Grizzlies beat Pelicans 128-122 (margin 6); Pelicans lost, opponent Grizzlies, Pelicans regular game #1\nPlayers over those games (by total points, largest first):\n[P1] Jordan Hawkins (Pelicans): 1 games, 8 total points, best game 8",
+   "answer_row": "P1",
+   "llm_calls": 1,
+   "seconds": 2.94
+  }
+ },
+ {
+  "id": "heldout-005",
+  "result": {
+   "answerable": true,
+   "points": 62,
+   "games": 14,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500652
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500652,
+     "player_id": 203939
+    },
+    {
+     "table": "games",
+     "game_id": 22500876
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500876,
+     "player_id": 203939
+    },
+    {
+     "table": "games",
+     "game_id": 22500883
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500883,
+     "player_id": 203939
+    },
+    {
+     "table": "games",
+     "game_id": 22500899
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500899,
+     "player_id": 203939
+    },
+    {
+     "table": "games",
+     "game_id": 22500908
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500908,
+     "player_id": 203939
+    },
+    {
+     "table": "games",
+     "game_id": 22500924
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500924,
+     "player_id": 203939
+    },
+    {
+     "table": "games",
+     "game_id": 22500965
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500965,
+     "player_id": 203939
+    },
+    {
+     "table": "games",
+     "game_id": 22500977
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500977,
+     "player_id": 203939
+    },
+    {
+     "table": "games",
+     "game_id": 22500988
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500988,
+     "player_id": 203939
+    },
+    {
+     "table": "games",
+     "game_id": 22501006
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501006,
+     "player_id": 203939
+    },
+    {
+     "table": "games",
+     "game_id": 22501059
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501059,
+     "player_id": 203939
+    },
+    {
+     "table": "games",
+     "game_id": 22501074
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501074,
+     "player_id": 203939
+    },
+    {
+     "table": "games",
+     "game_id": 22501095
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501095,
+     "player_id": 203939
+    },
+    {
+     "table": "games",
+     "game_id": 22501111
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501111,
+     "player_id": 203939
+    }
+   ]
+  },
+  "trace": {
+   "plan": {
+    "focus_team_id": null,
+    "result": "any",
+    "min_margin": null,
+    "min_value": null,
+    "starters_only": false,
+    "bench_only": false,
+    "players_from": "both",
+    "game_pick": "all",
+    "rank": "most",
+    "per_game": false,
+    "game_number": null,
+    "stat": "points",
+    "season_phase": "regular",
+    "venue": null
+   },
+   "teams": [],
+   "players": [
+    "Dwight Powell"
+   ],
+   "window": [
+    "2026-03-01",
+    "2026-03-31"
+   ],
+   "games_matched": 17,
+   "retrieval": [],
+   "context": "Players named: Dwight Powell\nGames matching the question: 17\nPlayers over those games (by total points, largest first):\n[P1] Dwight Powell (Mavericks): 14 games, 62 total points, best game 12",
+   "answer_row": "P1",
+   "llm_calls": 1,
+   "seconds": 2.85
+  }
+ },
+ {
+  "id": "heldout-006",
+  "result": {
+   "answerable": true,
+   "opponent": "Heat",
+   "margin": 16,
+   "score": "127-111",
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500354
+    }
+   ]
+  },
+  "trace": {
+   "plan": {
+    "focus_team_id": 1610612758,
+    "result": "win",
+    "min_margin": null,
+    "min_value": null,
+    "starters_only": false,
+    "bench_only": false,
+    "players_from": "focus",
+    "game_pick": "all",
+    "rank": "most",
+    "per_game": false,
+    "game_number": null,
+    "stat": "points",
+    "season_phase": "regular",
+    "venue": null
+   },
+   "teams": [
+    "Kings"
+   ],
+   "players": [],
+   "window": null,
+   "games_matched": 22,
+   "retrieval": [],
+   "context": "Teams named: Kings\nGames matching the question: 22\nGames (by margin, largest first):\n[G1] 2025-12-06 Kings at Heat: Kings beat Heat 127-111 (margin 16); Kings won, opponent Heat, Kings regular game #23\n[G2] 2026-03-08 Bulls at Kings: Kings beat Bulls 126-110 (margin 16); Kings won, opponent Bulls, Kings regular game #65\n[G3] 2026-01-11 Rockets at Kings: Kings beat Rockets 111-98 (margin 13); Kings won, opponent Rockets, Kings regular game #39\n[G4] 2026-01-16 Wizards at Kings: Kings beat Wizards 128-115 (margin 13); Kings won, opponent Wizards, Kings regular game #42\n[G5] 2026-01-12 Lakers at Kings: Kings beat Lakers 124-112 (margin 12); Kings won, opponent Lakers, Kings regular game #40\n[G6] 2026-01-14 Knicks at Kings: Kings beat Knicks 112-101 (margin 11); Kings won, opponent Knicks, Kings regular game #41\n[G7] 2026-02-23 Kings at Grizzlies: Kings beat Grizzlies 123-114 (margin 9); Kings won, opponent Grizzlies, Kings regular game #59\n[G8] 2026-02-26 Kings at Mavericks: Kings beat Mavericks 130-121 (margin 9); Kings won, opponent Mavericks, Kings regular game #61",
+   "ties": [
+    22500354,
+    22500930
+   ],
+   "answer_row": "G1",
+   "llm_calls": 1,
+   "seconds": 2.86
+  }
+ },
+ {
+  "id": "heldout-007",
+  "result": {
+   "answerable": true,
+   "player_name": "Kevin Durant",
+   "points": 90,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500422
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500422,
+     "player_id": 201142
+    },
+    {
+     "table": "games",
+     "game_id": 22500581
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500581,
+     "player_id": 201142
+    },
+    {
+     "table": "games",
+     "game_id": 22500728
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500728,
+     "player_id": 201142
+    },
+    {
+     "table": "games",
+     "game_id": 22500927
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500927,
+     "player_id": 201142
+    },
+    {
+     "table": "games",
+     "game_id": 22500950
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500950,
+     "player_id": 201142
+    }
+   ]
+  },
+  "trace": {
+   "plan": {
+    "focus_team_id": 1610612745,
+    "result": "loss",
+    "min_margin": 15,
+    "min_value": null,
+    "starters_only": true,
+    "bench_only": false,
+    "players_from": "focus",
+    "game_pick": "all",
+    "rank": "most",
+    "per_game": false,
+    "game_number": null,
+    "stat": "points",
+    "season_phase": "regular",
+    "venue": null
+   },
+   "teams": [
+    "Rockets"
+   ],
+   "players": [],
+   "window": null,
+   "games_matched": 5,
+   "retrieval": [],
+   "context": "Teams named: Rockets\nGames matching the question: 5\nPlayers over those games (by total points, largest first):\n[P1] Kevin Durant (Rockets): 5 games, 90 total points, best game 23\n[P2] Amen Thompson (Rockets): 5 games, 82 total points, best game 23\n[P3] Jabari Smith Jr. (Rockets): 5 games, 74 total points, best game 17\n[P4] Alperen Sengun (Rockets): 5 games, 72 total points, best game 19\n[P5] Tari Eason (Rockets): 3 games, 20 total points, best game 10\n[P6] Josh Okogie (Rockets): 2 games, 5 total points, best game 5",
+   "answer_row": "P1",
+   "llm_calls": 1,
+   "seconds": 2.99
+  }
+ },
+ {
+  "id": "heldout-008",
+  "result": {
+   "answerable": true,
+   "player_name": "Shai Gilgeous-Alexander",
+   "games": 4,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500180
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500180,
+     "player_id": 1628983
+    },
+    {
+     "table": "games",
+     "game_id": 22500280
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500280,
+     "player_id": 1628983
+    },
+    {
+     "table": "games",
+     "game_id": 22500305
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500305,
+     "player_id": 1628983
+    },
+    {
+     "table": "games",
+     "game_id": 22500470
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500470,
+     "player_id": 1628983
+    }
+   ]
+  },
+  "trace": {
+   "plan": {
+    "focus_team_id": 1610612757,
+    "result": "any",
+    "min_margin": null,
+    "min_value": 25,
+    "starters_only": false,
+    "bench_only": false,
+    "players_from": "opponents",
+    "game_pick": "all",
+    "rank": "most",
+    "per_game": false,
+    "game_number": null,
+    "stat": "points",
+    "season_phase": "regular",
+    "venue": null
+   },
+   "teams": [
+    "Trail Blazers"
+   ],
+   "players": [],
+   "window": null,
+   "games_matched": 82,
+   "retrieval": [],
+   "context": "Teams named: Trail Blazers\nGames matching the question: 82\nPlayers over those games (by games with 25+ points, largest first):\n[P1] Shai Gilgeous-Alexander (Thunder): 4 games, 128 total points, best game 37, 4 games with 25+ points\n[P2] Stephen Curry (Warriors): 4 games, 128 total points, best game 48, 3 games with 25+ points\n[P3] Kevin Durant (Rockets): 4 games, 117 total points, best game 37, 3 games with 25+ points\n[P4] Anthony Edwards (Timberwolves): 3 games, 89 total points, best game 41, 2 games with 25+ points\n[P5] Nikola Jokic (Nuggets): 4 games, 110 total points, best game 35, 2 games with 25+ points\n[P6] De'Aaron Fox (Spurs): 3 games, 81 total points, best game 37, 2 games with 25+ points\n[P7] Brice Sensabaugh (Jazz): 4 games, 72 total points, best game 31, 2 games with 25+ points\n[P8] Kawhi Leonard (Clippers): 4 games, 105 total points, best game 30, 2 games with 25+ points",
+   "answer_row": "P1",
+   "llm_calls": 1,
+   "seconds": 3.02
+  }
+ },
+ {
+  "id": "heldout-009",
+  "result": {
+   "answerable": true,
+   "points": 490,
+   "games": 25,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500798
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500798,
+     "player_id": 1630224
+    },
+    {
+     "table": "games",
+     "game_id": 22500811
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500811,
+     "player_id": 1630224
+    },
+    {
+     "table": "games",
+     "game_id": 22500826
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500826,
+     "player_id": 1630224
+    },
+    {
+     "table": "games",
+     "game_id": 22500839
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500839,
+     "player_id": 1630224
+    },
+    {
+     "table": "games",
+     "game_id": 22500855
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500855,
+     "player_id": 1630224
+    },
+    {
+     "table": "games",
+     "game_id": 22500892
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500892,
+     "player_id": 1630224
+    },
+    {
+     "table": "games",
+     "game_id": 22500905
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500905,
+     "player_id": 1630224
+    },
+    {
+     "table": "games",
+     "game_id": 22500912
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500912,
+     "player_id": 1630224
+    },
+    {
+     "table": "games",
+     "game_id": 22500928
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500928,
+     "player_id": 1630224
+    },
+    {
+     "table": "games",
+     "game_id": 22500941
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500941,
+     "player_id": 1630224
+    },
+    {
+     "table": "games",
+     "game_id": 22500954
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500954,
+     "player_id": 1630224
+    },
+    {
+     "table": "games",
+     "game_id": 22500963
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500963,
+     "player_id": 1630224
+    },
+    {
+     "table": "games",
+     "game_id": 22500986
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500986,
+     "player_id": 1630224
+    },
+    {
+     "table": "games",
+     "game_id": 22500996
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500996,
+     "player_id": 1630224
+    },
+    {
+     "table": "games",
+     "game_id": 22501013
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501013,
+     "player_id": 1630224
+    },
+    {
+     "table": "games",
+     "game_id": 22501031
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501031,
+     "player_id": 1630224
+    },
+    {
+     "table": "games",
+     "game_id": 22501036
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501036,
+     "player_id": 1630224
+    },
+    {
+     "table": "games",
+     "game_id": 22501050
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501050,
+     "player_id": 1630224
+    },
+    {
+     "table": "games",
+     "game_id": 22501081
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501081,
+     "player_id": 1630224
+    },
+    {
+     "table": "games",
+     "game_id": 22501093
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501093,
+     "player_id": 1630224
+    },
+    {
+     "table": "games",
+     "game_id": 22501099
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501099,
+     "player_id": 1630224
+    },
+    {
+     "table": "games",
+     "game_id": 22501114
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501114,
+     "player_id": 1630224
+    },
+    {
+     "table": "games",
+     "game_id": 22501134
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501134,
+     "player_id": 1630224
+    },
+    {
+     "table": "games",
+     "game_id": 22501157
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501157,
+     "player_id": 1630224
+    },
+    {
+     "table": "games",
+     "game_id": 22501164
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501164,
+     "player_id": 1630224
+    }
+   ]
+  },
+  "trace": {
+   "plan": {
+    "focus_team_id": null,
+    "result": "any",
+    "min_margin": null,
+    "min_value": null,
+    "starters_only": false,
+    "bench_only": false,
+    "players_from": "both",
+    "game_pick": "all",
+    "rank": "most",
+    "per_game": false,
+    "game_number": null,
+    "stat": "points",
+    "season_phase": "regular",
+    "venue": null
+   },
+   "teams": [],
+   "players": [
+    "Jalen Green"
+   ],
+   "window": [
+    "2026-02-19",
+    "2026-04-12"
+   ],
+   "games_matched": 27,
+   "retrieval": [],
+   "context": "Players named: Jalen Green\nGames matching the question: 27\nPlayers over those games (by total points, largest first):\n[P1] Jalen Green (Suns): 25 games, 490 total points, best game 36",
+   "answer_row": "P1",
+   "llm_calls": 1,
+   "seconds": 2.91
+  }
+ },
+ {
+  "id": "heldout-010",
+  "result": {
+   "answerable": true,
+   "player_name": "Zach Edey",
+   "rebounds": 19,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500079
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500079,
+     "player_id": 1641744
+    }
+   ]
+  },
+  "trace": {
+   "plan": {
+    "focus_team_id": 1610612746,
+    "result": "any",
+    "min_margin": null,
+    "min_value": null,
+    "starters_only": false,
+    "bench_only": false,
+    "players_from": "opponents",
+    "game_pick": "all",
+    "rank": "most",
+    "per_game": true,
+    "game_number": null,
+    "stat": "rebounds",
+    "season_phase": "regular",
+    "venue": null
+   },
+   "teams": [
+    "Clippers"
+   ],
+   "players": [],
+   "window": null,
+   "games_matched": 82,
+   "retrieval": [],
+   "context": "Teams named: Clippers\nGames matching the question: 82\nPlayers over those games (by best single game rebounds, largest first):\n[P1] Zach Edey (Grizzlies): 2 games, 27 total rebounds, best game 19 on 2025-11-28\n[P2] Andre Drummond (76ers): 1 games, 18 total rebounds, best game 18 on 2025-11-17\n[P3] Nikola Jokic (Nuggets): 3 games, 41 total rebounds, best game 17 on 2026-02-19\n[P4] Dominick Barlow (76ers): 2 games, 17 total rebounds, best game 16 on 2026-02-02\n[P5] Alperen Sengun (Rockets): 4 games, 42 total rebounds, best game 15 on 2025-12-11\n[P6] Moussa Diabate (Hornets): 2 games, 22 total rebounds, best game 15 on 2026-01-12\n[P7] Maxime Raynaud (Kings): 4 games, 37 total rebounds, best game 15 on 2026-04-05\n[P8] Bam Adebayo (Heat): 2 games, 24 total rebounds, best game 14 on 2025-12-01",
+   "answer_row": "P1",
+   "llm_calls": 1,
+   "seconds": 2.88
+  }
+ },
+ {
+  "id": "heldout-011",
+  "result": {
+   "answerable": true,
+   "player_name": "Ben Sheppard",
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22501083
+    },
+    {
+     "table": "recaps",
+     "recap_id": 1113
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501083,
+     "player_id": 1641767
+    }
+   ]
+  },
+  "trace": {
+   "plan": {
+    "focus_team_id": 1610612754,
+    "result": "any",
+    "min_margin": null,
+    "min_value": null,
+    "starters_only": false,
+    "bench_only": false,
+    "players_from": "focus",
+    "game_pick": "all",
+    "rank": "most",
+    "per_game": false,
+    "game_number": null,
+    "stat": "points",
+    "season_phase": null,
+    "venue": null
+   },
+   "teams": [
+    "Pacers",
+    "Heat"
+   ],
+   "players": [],
+   "window": [
+    "2026-03-29",
+    "2026-03-29"
+   ],
+   "games_matched": 1,
+   "retrieval": [],
+   "context": "Teams named: Pacers, Heat\nGames matching the question: 1\nGames (by margin, largest first):\n[G1] 2026-03-29 Heat at Pacers: Pacers beat Heat 135-118 (margin 17); Pacers won, opponent Heat, Pacers regular game #75\nPlayers over those games (by total points, largest first):\n[P1] Pascal Siakam (Pacers): 1 games, 30 total points, best game 30\n[P2] Micah Potter (Pacers): 1 games, 21 total points, best game 21\n[P3] Kobe Brown (Pacers): 1 games, 18 total points, best game 18\n[P4] T.J. McConnell (Pacers): 1 games, 15 total points, best game 15\n[P5] Andrew Nembhard (Pacers): 1 games, 15 total points, best game 15\n[P6] Obi Toppin (Pacers): 1 games, 12 total points, best game 12\n[P7] Quenton Jackson (Pacers): 1 games, 10 total points, best game 10\n[P8] Jay Huff (Pacers): 1 games, 6 total points, best game 6\nRecaps:\n[R1] recap of game 22501083: The Pacers defeated the Heat 135-118 on March 29, 2026, winning at home. The Pacers led 79-75 at halftime. Down by as many as 8, the Pacers came back to win. The Pacers' biggest lead was 17. Ben Sheppard hit the go-ahead 3-pointer with 8:48 left in the fourth quarter. There were 16 lead changes and 10 ties. Pascal Siakam led the Pacers with 30 points, 11 rebounds and 6 assists. Tyler Herro paced the Heat with 31 points in the loss.",
+   "model_reply": "{\n  \"row\": \"R1\",\n  \"quote\": \"Ben Sheppard hit the go-ahead 3-pointer with 8:48 left in the fourth quarter.\",\n  \"player_name\": \"Ben Sheppard\",\n  \"answerable\": true\n}",
+   "quote": "Ben Sheppard hit the go-ahead 3-pointer with 8:48 left in the fourth quarter.",
+   "answer_row": "R1",
+   "llm_calls": 2,
+   "seconds": 5.95
+  }
+ },
+ {
+  "id": "heldout-012",
+  "result": {
+   "answerable": true,
+   "opponent": "Suns",
+   "deficit": 22,
+   "score": "124-122",
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500239
+    },
+    {
+     "table": "recaps",
+     "recap_id": 198
+    }
+   ]
+  },
+  "trace": {
+   "plan": {
+    "focus_team_id": 1610612737,
+    "result": "win",
+    "min_margin": null,
+    "min_value": null,
+    "starters_only": false,
+    "bench_only": false,
+    "players_from": "focus",
+    "game_pick": "all",
+    "rank": "most",
+    "per_game": false,
+    "game_number": null,
+    "stat": "points",
+    "season_phase": "regular",
+    "venue": null
+   },
+   "teams": [
+    "Hawks"
+   ],
+   "players": [],
+   "window": null,
+   "games_matched": 46,
+   "retrieval": [],
+   "context": "Teams named: Hawks\nGames matching the question: 46\nGames (by margin, largest first):\n[G1] 2026-03-23 Grizzlies at Hawks: Hawks beat Grizzlies 146-107 (margin 39); Hawks won, opponent Grizzlies, Hawks regular game #72\n[G2] 2026-03-01 Trail Blazers at Hawks: Hawks beat Trail Blazers 135-101 (margin 34); Hawks won, opponent Trail Blazers, Hawks regular game #62\n[G3] 2026-04-03 Hawks at Nets: Hawks beat Nets 141-107 (margin 34); Hawks won, opponent Nets, Hawks regular game #78\n[G4] 2025-11-12 Hawks at Kings: Hawks beat Kings 133-100 (margin 33); Hawks won, opponent Kings, Hawks regular game #12\n[G5] 2026-02-26 Wizards at Hawks: Hawks beat Wizards 126-96 (margin 30); Hawks won, opponent Wizards, Hawks regular game #61\n[G6] 2026-04-01 Hawks at Magic: Hawks beat Magic 130-101 (margin 29); Hawks won, opponent Magic, Hawks regular game #77\n[G7] 2025-12-31 Timberwolves at Hawks: Hawks beat Timberwolves 126-102 (margin 24); Hawks won, opponent Timberwolves, Hawks regular game #35\n[G8] 2026-01-09 Hawks at Nuggets: Hawks beat Nuggets 110-87 (margin 23); Hawks won, opponent Nuggets, Hawks regular game #40\n[answer read from recap 198]",
+   "per_game_reads": [
+    [
+     14,
+     22500090
+    ],
+    [
+     12,
+     22500130
+    ],
+    [
+     12,
+     22500020
+    ],
+    [
+     2,
+     22500166
+    ],
+    [
+     1,
+     22500185
+    ],
+    [
+     17,
+     22500206
+    ],
+    [
+     3,
+     22500227
+    ],
+    [
+     22,
+     22500239
+    ],
+    [
+     7,
+     22500270
+    ],
+    [
+     8,
+     22500276
+    ],
+    [
+     7,
+     22500069
+    ],
+    [
+     9,
+     22500304
+    ],
+    [
+     6,
+     22500351
+    ],
+    [
+     1,
+     22501217
+    ],
+    [
+     9,
+     22500479
+    ],
+    [
+     5,
+     22500537
+    ],
+    [
+     11,
+     22500623
+    ],
+    [
+     7,
+     22500636
+    ],
+    [
+     15,
+     22500659
+    ],
+    [
+     6,
+     22500720
+    ],
+    [
+     12,
+     22500735
+    ],
+    [
+     4,
+     22500794
+    ],
+    [
+     11,
+     22500818
+    ],
+    [
+     3,
+     22500873
+    ],
+    [
+     16,
+     22500897
+    ],
+    [
+     13,
+     22500917
+    ],
+    [
+     2,
+     22500939
+    ],
+    [
+     2,
+     22500956
+    ],
+    [
+     3,
+     22500970
+    ],
+    [
+     2,
+     22500983
+    ],
+    [
+     8,
+     22501026
+    ],
+    [
+     5,
+     22501037
+    ],
+    [
+     5,
+     22501051
+    ],
+    [
+     7,
+     22501078
+    ],
+    [
+     6,
+     22501092
+    ],
+    [
+     7,
+     22501107
+    ],
+    [
+     5,
+     22501173
+    ]
+   ],
+   "answer_row": "G1",
+   "llm_calls": 129,
+   "seconds": 299.83
+  }
+ },
+ {
+  "id": "heldout-013",
+  "result": {
+   "answerable": true,
+   "status": "did not dress",
+   "reason": "injury/illness",
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22501192
+    },
+    {
+     "table": "availability_notes",
+     "note_id": 5337
+    }
+   ]
+  },
+  "trace": {
+   "plan": {
+    "focus_team_id": 1610612751,
+    "result": "any",
+    "min_margin": null,
+    "min_value": null,
+    "starters_only": false,
+    "bench_only": false,
+    "players_from": "focus",
+    "game_pick": "all",
+    "rank": "most",
+    "per_game": false,
+    "game_number": null,
+    "stat": "points",
+    "season_phase": null,
+    "venue": null
+   },
+   "teams": [
+    "Nets",
+    "Raptors"
+   ],
+   "players": [
+    "Nic Claxton"
+   ],
+   "window": [
+    "2026-04-12",
+    "2026-04-12"
+   ],
+   "games_matched": 1,
+   "retrieval": [],
+   "context": "Teams named: Nets, Raptors\nPlayers named: Nic Claxton\nGames matching the question: 1\nGames (by margin, largest first):\n[G1] 2026-04-12 Nets at Raptors: Raptors beat Nets 136-101 (margin 35); Nets lost, opponent Raptors, Nets regular game #82\nAvailability notes:\n[N1] availability note on Nic Claxton for game 22501192 (status: did not dress): Nic Claxton did not dress for the Nets against the Raptors on April 12, 2026 (injury/illness).",
+   "model_reply": "{\n  \"row\": \"N1\",\n  \"quote\": \"Nic Claxton did not dress for the Nets against the Raptors on April 12, 2026 (injury/illness).\",\n  \"status\": \"did not dress\",\n  \"reason\": \"injury/illness\",\n  \"answerable\": true\n}",
+   "quote": "did not dress): Nic Claxton did not dress for the Nets against the Raptors on April 12, 2026 (injury/illness).",
+   "answer_row": "N1",
+   "llm_calls": 2,
+   "seconds": 6.01
+  }
+ },
+ {
+  "id": "heldout-014",
+  "result": {
+   "answerable": true,
+   "assists": 3,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500137
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500137,
+     "player_id": 1628991
+    }
+   ]
+  },
+  "trace": {
+   "plan": {
+    "focus_team_id": 1610612756,
+    "result": "any",
+    "min_margin": null,
+    "min_value": null,
+    "starters_only": false,
+    "bench_only": false,
+    "players_from": "opponents",
+    "game_pick": "all",
+    "rank": "most",
+    "per_game": false,
+    "game_number": null,
+    "stat": "assists",
+    "season_phase": null,
+    "venue": null
+   },
+   "teams": [
+    "Suns"
+   ],
+   "players": [
+    "Jaren Jackson Jr."
+   ],
+   "window": [
+    "2025-10-29",
+    "2025-10-29"
+   ],
+   "games_matched": 1,
+   "retrieval": [],
+   "context": "Teams named: Suns\nPlayers named: Jaren Jackson Jr.\nGames matching the question: 1\nGames (by margin, largest first):\n[G1] 2025-10-29 Grizzlies at Suns: Grizzlies beat Suns 114-113 (margin 1); Suns lost, opponent Grizzlies, Suns regular game #5\nPlayers over those games (by total assists, largest first):\n[P1] Jaren Jackson Jr. (Grizzlies): 1 games, 3 total assists, best game 3",
+   "answer_row": "P1",
+   "llm_calls": 1,
+   "seconds": 2.89
+  }
+ },
+ {
+  "id": "heldout-015",
+  "result": {
+   "answerable": true,
+   "winner": "Bulls",
+   "score": "130-124",
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500943
+    }
+   ]
+  },
+  "trace": {
+   "plan": {
+    "focus_team_id": 1610612744,
+    "result": "any",
+    "min_margin": null,
+    "min_value": null,
+    "starters_only": false,
+    "bench_only": false,
+    "players_from": "focus",
+    "game_pick": "all",
+    "rank": "most",
+    "per_game": false,
+    "game_number": null,
+    "stat": "points",
+    "season_phase": null,
+    "venue": null
+   },
+   "teams": [
+    "Warriors",
+    "Bulls"
+   ],
+   "players": [],
+   "window": [
+    "2026-03-10",
+    "2026-03-10"
+   ],
+   "games_matched": 1,
+   "retrieval": [],
+   "context": "Teams named: Warriors, Bulls\nGames matching the question: 1\nGames (by margin, largest first):\n[G1] 2026-03-10 Bulls at Warriors: Bulls beat Warriors 130-124 (margin 6); Warriors lost, opponent Bulls, Warriors regular game #65",
+   "answer_row": "G1",
+   "llm_calls": 1,
+   "seconds": 2.96
+  }
+ },
+ {
+  "id": "heldout-016",
+  "result": {
+   "answerable": true,
+   "player_name": "Kyle Anderson",
+   "rebounds": 8,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500475
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500475,
+     "player_id": 203937
+    }
+   ]
+  },
+  "trace": {
+   "plan": {
+    "focus_team_id": 1610612762,
+    "result": "any",
+    "min_margin": null,
+    "min_value": null,
+    "starters_only": false,
+    "bench_only": false,
+    "players_from": "focus",
+    "game_pick": "all",
+    "rank": "most",
+    "per_game": false,
+    "game_number": null,
+    "stat": "rebounds",
+    "season_phase": null,
+    "venue": null
+   },
+   "teams": [
+    "Jazz",
+    "Clippers"
+   ],
+   "players": [],
+   "window": [
+    "2026-01-01",
+    "2026-01-01"
+   ],
+   "games_matched": 1,
+   "retrieval": [],
+   "context": "Teams named: Jazz, Clippers\nGames matching the question: 1\nGames (by margin, largest first):\n[G1] 2026-01-01 Jazz at Clippers: Clippers beat Jazz 118-101 (margin 17); Jazz lost, opponent Clippers, Jazz regular game #33\nPlayers over those games (by total rebounds, largest first):\n[P1] Kyle Anderson (Jazz): 1 games, 8 total rebounds, best game 8\n[P2] Oscar Tshiebwe (Jazz): 1 games, 6 total rebounds, best game 6\n[P3] Isaiah Collier (Jazz): 1 games, 6 total rebounds, best game 6\n[P4] Kyle Filipowski (Jazz): 1 games, 6 total rebounds, best game 6\n[P5] Brice Sensabaugh (Jazz): 1 games, 3 total rebounds, best game 3\n[P6] Svi Mykhailiuk (Jazz): 1 games, 2 total rebounds, best game 2\n[P7] Taylor Hendricks (Jazz): 1 games, 2 total rebounds, best game 2\n[P8] Walter Clayton Jr. (Jazz): 1 games, 2 total rebounds, best game 2",
+   "answer_row": "P1",
+   "llm_calls": 1,
+   "seconds": 2.86
+  }
+ },
+ {
+  "id": "heldout-017",
+  "result": {
+   "answerable": true,
+   "points": 14,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500086
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500086,
+     "player_id": 1641715
+    }
+   ]
+  },
+  "trace": {
+   "plan": {
+    "focus_team_id": 1610612764,
+    "result": "any",
+    "min_margin": null,
+    "min_value": null,
+    "starters_only": false,
+    "bench_only": false,
+    "players_from": "focus",
+    "game_pick": "first",
+    "rank": "most",
+    "per_game": false,
+    "game_number": null,
+    "stat": "points",
+    "season_phase": "regular",
+    "venue": null
+   },
+   "teams": [
+    "Wizards"
+   ],
+   "players": [
+    "Cam Whitmore"
+   ],
+   "window": null,
+   "games_matched": 1,
+   "retrieval": [],
+   "context": "Teams named: Wizards\nPlayers named: Cam Whitmore\nGames matching the question: 1\nGames (by margin, largest first):\n[G1] 2025-10-22 Wizards at Bucks: Bucks beat Wizards 133-120 (margin 13); Wizards lost, opponent Bucks, Wizards regular game #1\nPlayers over those games (by total points, largest first):\n[P1] Cam Whitmore (Wizards): 1 games, 14 total points, best game 14",
+   "answer_row": "P1",
+   "llm_calls": 1,
+   "seconds": 2.94
+  }
+ },
+ {
+  "id": "heldout-018",
+  "result": {
+   "answerable": true,
+   "assists": 11,
+   "games": 5,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22501117
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501117,
+     "player_id": 1631165
+    },
+    {
+     "table": "games",
+     "game_id": 22501136
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501136,
+     "player_id": 1631165
+    },
+    {
+     "table": "games",
+     "game_id": 22501145
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501145,
+     "player_id": 1631165
+    },
+    {
+     "table": "games",
+     "game_id": 22501158
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501158,
+     "player_id": 1631165
+    },
+    {
+     "table": "games",
+     "game_id": 22501173
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501173,
+     "player_id": 1631165
+    }
+   ]
+  },
+  "trace": {
+   "plan": {
+    "focus_team_id": null,
+    "result": "any",
+    "min_margin": null,
+    "min_value": null,
+    "starters_only": false,
+    "bench_only": false,
+    "players_from": "both",
+    "game_pick": "all",
+    "rank": "most",
+    "per_game": false,
+    "game_number": null,
+    "stat": "assists",
+    "season_phase": "regular",
+    "venue": null
+   },
+   "teams": [],
+   "players": [
+    "Keon Ellis"
+   ],
+   "window": [
+    "2026-04-01",
+    "2026-04-30"
+   ],
+   "games_matched": 6,
+   "retrieval": [],
+   "context": "Players named: Keon Ellis\nGames matching the question: 6\nPlayers over those games (by total assists, largest first):\n[P1] Keon Ellis (Cavaliers): 5 games, 11 total assists, best game 8",
+   "answer_row": "P1",
+   "llm_calls": 1,
+   "seconds": 2.94
+  }
+ },
+ {
+  "id": "heldout-019",
+  "result": {
+   "answerable": true,
+   "opponent": "Timberwolves",
+   "margin": 27,
+   "score": "135-108",
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500824
+    }
+   ]
+  },
+  "trace": {
+   "plan": {
+    "focus_team_id": 1610612755,
+    "result": "win",
+    "min_margin": null,
+    "min_value": null,
+    "starters_only": false,
+    "bench_only": false,
+    "players_from": "focus",
+    "game_pick": "all",
+    "rank": "most",
+    "per_game": false,
+    "game_number": null,
+    "stat": "points",
+    "season_phase": "regular",
+    "venue": null
+   },
+   "teams": [
+    "76ers"
+   ],
+   "players": [],
+   "window": null,
+   "games_matched": 45,
+   "retrieval": [],
+   "context": "Teams named: 76ers\nGames matching the question: 45\nGames (by margin, largest first):\n[G1] 2026-02-22 76ers at Timberwolves: 76ers beat Timberwolves 135-108 (margin 27); 76ers won, opponent Timberwolves, 76ers regular game #57\n[G2] 2025-11-02 76ers at Nets: 76ers beat Nets 129-105 (margin 24); 76ers won, opponent Nets, 76ers regular game #6\n[G3] 2026-04-01 76ers at Wizards: 76ers beat Wizards 153-131 (margin 22); 76ers won, opponent Wizards, 76ers regular game #76\n[G4] 2026-01-07 Wizards at 76ers: 76ers beat Wizards 131-110 (margin 21); 76ers won, opponent Wizards, 76ers regular game #35\n[G5] 2026-02-24 76ers at Pacers: 76ers beat Pacers 135-114 (margin 21); 76ers won, opponent Pacers, 76ers regular game #58\n[G6] 2026-03-19 76ers at Kings: 76ers beat Kings 139-118 (margin 21); 76ers won, opponent Kings, 76ers regular game #70\n[G7] 2026-03-25 Bulls at 76ers: 76ers beat Bulls 157-137 (margin 20); 76ers won, opponent Bulls, 76ers regular game #73\n[G8] 2026-04-12 Bucks at 76ers: 76ers beat Bucks 126-106 (margin 20); 76ers won, opponent Bucks, 76ers regular game #82",
+   "answer_row": "G1",
+   "llm_calls": 1,
+   "seconds": 2.9
+  }
+ },
+ {
+  "id": "heldout-020",
+  "result": {
+   "answerable": true,
+   "player_name": "Jaylen Wells",
+   "points": 245,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500094
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500094,
+     "player_id": 1642377
+    },
+    {
+     "table": "games",
+     "game_id": 22500121
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500121,
+     "player_id": 1642377
+    },
+    {
+     "table": "games",
+     "game_id": 22500152
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500152,
+     "player_id": 1642377
+    },
+    {
+     "table": "games",
+     "game_id": 22500176
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500176,
+     "player_id": 1642377
+    },
+    {
+     "table": "games",
+     "game_id": 22500194
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500194,
+     "player_id": 1642377
+    },
+    {
+     "table": "games",
+     "game_id": 22500208
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500208,
+     "player_id": 1642377
+    },
+    {
+     "table": "games",
+     "game_id": 22500216
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500216,
+     "player_id": 1642377
+    },
+    {
+     "table": "games",
+     "game_id": 22500252
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500252,
+     "player_id": 1642377
+    },
+    {
+     "table": "games",
+     "game_id": 22500287
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500287,
+     "player_id": 1642377
+    },
+    {
+     "table": "games",
+     "game_id": 22500406
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500406,
+     "player_id": 1642377
+    },
+    {
+     "table": "games",
+     "game_id": 22500524
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500524,
+     "player_id": 1642377
+    },
+    {
+     "table": "games",
+     "game_id": 22500676
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500676,
+     "player_id": 1642377
+    },
+    {
+     "table": "games",
+     "game_id": 22500700
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500700,
+     "player_id": 1642377
+    },
+    {
+     "table": "games",
+     "game_id": 22500745
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500745,
+     "player_id": 1642377
+    },
+    {
+     "table": "games",
+     "game_id": 22500813
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500813,
+     "player_id": 1642377
+    },
+    {
+     "table": "games",
+     "game_id": 22500844
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500844,
+     "player_id": 1642377
+    },
+    {
+     "table": "games",
+     "game_id": 22500932
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500932,
+     "player_id": 1642377
+    },
+    {
+     "table": "games",
+     "game_id": 22500936
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500936,
+     "player_id": 1642377
+    },
+    {
+     "table": "games",
+     "game_id": 22500987
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500987,
+     "player_id": 1642377
+    },
+    {
+     "table": "games",
+     "game_id": 22501023
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501023,
+     "player_id": 1642377
+    },
+    {
+     "table": "games",
+     "game_id": 22501037
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501037,
+     "player_id": 1642377
+    }
+   ]
+  },
+  "trace": {
+   "plan": {
+    "focus_team_id": 1610612763,
+    "result": "loss",
+    "min_margin": 10,
+    "min_value": null,
+    "starters_only": true,
+    "bench_only": false,
+    "players_from": "focus",
+    "game_pick": "all",
+    "rank": "most",
+    "per_game": false,
+    "game_number": null,
+    "stat": "points",
+    "season_phase": "regular",
+    "venue": null
+   },
+   "teams": [
+    "Grizzlies"
+   ],
+   "players": [],
+   "window": null,
+   "games_matched": 32,
+   "retrieval": [],
+   "context": "Teams named: Grizzlies\nGames matching the question: 32\nPlayers over those games (by total points, largest first):\n[P1] Jaylen Wells (Grizzlies): 21 games, 245 total points, best game 25\n[P2] GG Jackson (Grizzlies): 12 games, 222 total points, best game 30\n[P3] Cedric Coward (Grizzlies): 16 games, 211 total points, best game 27\n[P4] Jaren Jackson Jr. (Grizzlies): 12 games, 208 total points, best game 26\n[P5] Olivier-Maxence Prosper (Grizzlies): 14 games, 201 total points, best game 31\n[P6] Ty Jerome (Grizzlies): 6 games, 123 total points, best game 26\n[P7] Jock Landale (Grizzlies): 11 games, 103 total points, best game 17\n[P8] Javon Small (Grizzlies): 7 games, 101 total points, best game 19",
+   "answer_row": "P1",
+   "llm_calls": 1,
+   "seconds": 2.98
+  }
+ },
+ {
+  "id": "heldout-021",
+  "result": {
+   "answerable": true,
+   "player_name": "Luka Doncic",
+   "games": 3,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500179
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500179,
+     "player_id": 1629029
+    },
+    {
+     "table": "games",
+     "game_id": 22500523
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500523,
+     "player_id": 1629029
+    },
+    {
+     "table": "games",
+     "game_id": 22501204
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501204,
+     "player_id": 1629029
+    }
+   ]
+  },
+  "trace": {
+   "plan": {
+    "focus_team_id": 1610612759,
+    "result": "any",
+    "min_margin": null,
+    "min_value": 35,
+    "starters_only": false,
+    "bench_only": false,
+    "players_from": "opponents",
+    "game_pick": "all",
+    "rank": "most",
+    "per_game": false,
+    "game_number": null,
+    "stat": "points",
+    "season_phase": "regular",
+    "venue": null
+   },
+   "teams": [
+    "Spurs"
+   ],
+   "players": [],
+   "window": null,
+   "games_matched": 82,
+   "retrieval": [],
+   "context": "Teams named: Spurs\nGames matching the question: 82\nPlayers over those games (by games with 35+ points, largest first):\n[P1] Luka Doncic (Lakers): 3 games, 108 total points, best game 38, 3 games with 35+ points\n[P2] Stephen Curry (Warriors): 2 games, 95 total points, best game 49, 2 games with 35+ points\n[P3] Jamal Murray (Nuggets): 3 games, 91 total points, best game 39, 2 games with 35+ points\n[P4] Anthony Edwards (Timberwolves): 3 games, 110 total points, best game 55, 1 games with 35+ points\n[P5] Trey Murphy III (Pelicans): 4 games, 114 total points, best game 41, 1 games with 35+ points\n[P6] Cam Thomas (Nets): 1 games, 41 total points, best game 41, 1 games with 35+ points\n[P7] Nikola Jokic (Nuggets): 4 games, 115 total points, best game 40, 1 games with 35+ points\n[P8] Nickeil Alexander-Walker (Hawks): 2 games, 61 total points, best game 38, 1 games with 35+ points",
+   "answer_row": "P1",
+   "llm_calls": 1,
+   "seconds": 2.98
+  }
+ },
+ {
+  "id": "heldout-022",
+  "result": {
+   "answerable": true,
+   "points": 279,
+   "games": 22,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500795
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500795,
+     "player_id": 1630702
+    },
+    {
+     "table": "games",
+     "game_id": 22500822
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500822,
+     "player_id": 1630702
+    },
+    {
+     "table": "games",
+     "game_id": 22500850
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500850,
+     "player_id": 1630702
+    },
+    {
+     "table": "games",
+     "game_id": 22500865
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500865,
+     "player_id": 1630702
+    },
+    {
+     "table": "games",
+     "game_id": 22500879
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500879,
+     "player_id": 1630702
+    },
+    {
+     "table": "games",
+     "game_id": 22500885
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500885,
+     "player_id": 1630702
+    },
+    {
+     "table": "games",
+     "game_id": 22500900
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500900,
+     "player_id": 1630702
+    },
+    {
+     "table": "games",
+     "game_id": 22500925
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500925,
+     "player_id": 1630702
+    },
+    {
+     "table": "games",
+     "game_id": 22500938
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500938,
+     "player_id": 1630702
+    },
+    {
+     "table": "games",
+     "game_id": 22500971
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500971,
+     "player_id": 1630702
+    },
+    {
+     "table": "games",
+     "game_id": 22500984
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500984,
+     "player_id": 1630702
+    },
+    {
+     "table": "games",
+     "game_id": 22500993
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500993,
+     "player_id": 1630702
+    },
+    {
+     "table": "games",
+     "game_id": 22501009
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501009,
+     "player_id": 1630702
+    },
+    {
+     "table": "games",
+     "game_id": 22501022
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501022,
+     "player_id": 1630702
+    },
+    {
+     "table": "games",
+     "game_id": 22501034
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501034,
+     "player_id": 1630702
+    },
+    {
+     "table": "games",
+     "game_id": 22501057
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501057,
+     "player_id": 1630702
+    },
+    {
+     "table": "games",
+     "game_id": 22501073
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501073,
+     "player_id": 1630702
+    },
+    {
+     "table": "games",
+     "game_id": 22501098
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501098,
+     "player_id": 1630702
+    },
+    {
+     "table": "games",
+     "game_id": 22501105
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501105,
+     "player_id": 1630702
+    },
+    {
+     "table": "games",
+     "game_id": 22501129
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501129,
+     "player_id": 1630702
+    },
+    {
+     "table": "games",
+     "game_id": 22501133
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501133,
+     "player_id": 1630702
+    },
+    {
+     "table": "games",
+     "game_id": 22501187
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501187,
+     "player_id": 1630702
+    }
+   ]
+  },
+  "trace": {
+   "plan": {
+    "focus_team_id": null,
+    "result": "any",
+    "min_margin": null,
+    "min_value": null,
+    "starters_only": false,
+    "bench_only": false,
+    "players_from": "both",
+    "game_pick": "all",
+    "rank": "most",
+    "per_game": false,
+    "game_number": null,
+    "stat": "points",
+    "season_phase": "regular",
+    "venue": null
+   },
+   "teams": [],
+   "players": [
+    "Jaden Hardy"
+   ],
+   "window": [
+    "2026-02-19",
+    "2026-04-12"
+   ],
+   "games_matched": 29,
+   "retrieval": [],
+   "context": "Players named: Jaden Hardy\nGames matching the question: 29\nPlayers over those games (by total points, largest first):\n[P1] Jaden Hardy (Wizards): 22 games, 279 total points, best game 25",
+   "answer_row": "P1",
+   "llm_calls": 1,
+   "seconds": 2.93
+  }
+ },
+ {
+  "id": "heldout-023",
+  "result": {
+   "answerable": true,
+   "player_name": "Bam Adebayo",
+   "points": 83,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500938
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500938,
+     "player_id": 1628389
+    }
+   ]
+  },
+  "trace": {
+   "plan": {
+    "focus_team_id": 1610612764,
+    "result": "any",
+    "min_margin": null,
+    "min_value": null,
+    "starters_only": false,
+    "bench_only": false,
+    "players_from": "opponents",
+    "game_pick": "all",
+    "rank": "most",
+    "per_game": true,
+    "game_number": null,
+    "stat": "points",
+    "season_phase": "regular",
+    "venue": null
+   },
+   "teams": [
+    "Wizards"
+   ],
+   "players": [],
+   "window": null,
+   "games_matched": 82,
+   "retrieval": [],
+   "context": "Teams named: Wizards\nGames matching the question: 82\nPlayers over those games (by best single game points, largest first):\n[P1] Bam Adebayo (Heat): 4 games, 139 total points, best game 83 on 2026-03-10\n[P2] Donovan Mitchell (Cavaliers): 3 games, 102 total points, best game 48 on 2025-12-12\n[P3] Cade Cunningham (Pistons): 3 games, 82 total points, best game 46 on 2025-11-10\n[P4] Jamal Murray (Nuggets): 2 games, 66 total points, best game 42 on 2026-01-17\n[P5] Shai Gilgeous-Alexander (Thunder): 2 games, 71 total points, best game 40 on 2026-03-21\n[P6] Paul George (76ers): 3 games, 73 total points, best game 39 on 2026-04-01\n[P7] Tyrese Maxey (76ers): 4 games, 124 total points, best game 39 on 2025-10-28\n[P8] LaMelo Ball (Hornets): 4 games, 118 total points, best game 38 on 2025-10-26",
+   "answer_row": "P1",
+   "llm_calls": 1,
+   "seconds": 2.91
+  }
+ },
+ {
+  "id": "heldout-024",
+  "result": {
+   "answerable": true,
+   "player_name": "Amen Thompson",
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22501157
+    },
+    {
+     "table": "recaps",
+     "recap_id": 1188
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501157,
+     "player_id": 1641708
+    }
+   ]
+  },
+  "trace": {
+   "plan": {
+    "focus_team_id": 1610612745,
+    "result": "any",
+    "min_margin": null,
+    "min_value": null,
+    "starters_only": false,
+    "bench_only": false,
+    "players_from": "focus",
+    "game_pick": "all",
+    "rank": "most",
+    "per_game": false,
+    "game_number": null,
+    "stat": "points",
+    "season_phase": null,
+    "venue": null
+   },
+   "teams": [
+    "Rockets",
+    "Suns"
+   ],
+   "players": [],
+   "window": [
+    "2026-04-07",
+    "2026-04-07"
+   ],
+   "games_matched": 1,
+   "retrieval": [],
+   "context": "Teams named: Rockets, Suns\nGames matching the question: 1\nGames (by margin, largest first):\n[G1] 2026-04-07 Rockets at Suns: Rockets beat Suns 119-105 (margin 14); Rockets won, opponent Suns, Rockets regular game #79\nPlayers over those games (by total points, largest first):\n[P1] Kevin Durant (Rockets): 1 games, 24 total points, best game 24\n[P2] Amen Thompson (Rockets): 1 games, 22 total points, best game 22\n[P3] Jabari Smith Jr. (Rockets): 1 games, 20 total points, best game 20\n[P4] Aaron Holiday (Rockets): 1 games, 12 total points, best game 12\n[P5] Alperen Sengun (Rockets): 1 games, 12 total points, best game 12\n[P6] Tari Eason (Rockets): 1 games, 12 total points, best game 12\n[P7] Reed Sheppard (Rockets): 1 games, 12 total points, best game 12\n[P8] Clint Capela (Rockets): 1 games, 2 total points, best game 2\nRecaps:\n[R1] recap of game 22501157: The Rockets defeated the Suns 119-105 on April 7, 2026, winning on the road. At the break it was Suns 57, Rockets 54. Down by as many as 21, the Rockets came back to win. The Rockets' biggest lead was 15. Thompson hit the go-ahead basket with 10:53 left in the fourth quarter. There were 6 lead changes and 5 ties. Kevin Durant had 24 points for the Rockets. For the Suns, Devin Booker had 31 points.",
+   "model_reply": "{\n  \"row\": \"R1\",\n  \"quote\": \"Thompson hit the go-ahead basket with 10:53 left in the fourth quarter.\",\n  \"player_name\": \"Amen Thompson\",\n  \"answerable\": true\n}",
+   "quote": "Thompson hit the go-ahead basket with 10:53 left in the fourth quarter.",
+   "answer_row": "R1",
+   "llm_calls": 2,
+   "seconds": 5.91
+  }
+ },
+ {
+  "id": "heldout-025",
+  "result": {
+   "answerable": true,
+   "opponent": "Clippers",
+   "deficit": 25,
+   "score": "116-112",
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500913
+    },
+    {
+     "table": "recaps",
+     "recap_id": 942
+    }
+   ]
+  },
+  "trace": {
+   "plan": {
+    "focus_team_id": 1610612759,
+    "result": "win",
+    "min_margin": null,
+    "min_value": null,
+    "starters_only": false,
+    "bench_only": false,
+    "players_from": "focus",
+    "game_pick": "all",
+    "rank": "most",
+    "per_game": false,
+    "game_number": null,
+    "stat": "points",
+    "season_phase": "regular",
+    "venue": null
+   },
+   "teams": [
+    "Spurs"
+   ],
+   "players": [],
+   "window": null,
+   "games_matched": 62,
+   "retrieval": [],
+   "context": "Teams named: Spurs\nGames matching the question: 62\nGames (by margin, largest first):\n[G1] 2026-03-03 Spurs at 76ers: Spurs beat 76ers 131-91 (margin 40); Spurs won, opponent 76ers, Spurs regular game #61\n[G2] 2025-10-22 Spurs at Mavericks: Spurs beat Mavericks 125-92 (margin 33); Spurs won, opponent Mavericks, Spurs regular game #1\n[G3] 2026-03-28 Spurs at Bucks: Spurs beat Bucks 127-95 (margin 32); Spurs won, opponent Bucks, Spurs regular game #74\n[G4] 2025-12-19 Spurs at Hawks: Spurs beat Hawks 126-98 (margin 28); Spurs won, opponent Hawks, Spurs regular game #27\n[G5] 2026-02-10 Spurs at Lakers: Spurs beat Lakers 136-108 (margin 28); Spurs won, opponent Lakers, Spurs regular game #53\n[G6] 2026-03-17 Spurs at Kings: Spurs beat Kings 132-104 (margin 28); Spurs won, opponent Kings, Spurs regular game #69\n[G7] 2026-02-19 Suns at Spurs: Spurs beat Suns 121-94 (margin 27); Spurs won, opponent Suns, Spurs regular game #55\n[G8] 2025-12-18 Wizards at Spurs: Spurs beat Wizards 119-94 (margin 25); Spurs won, opponent Wizards, Spurs regular game #26\n[answer read from recap 942]",
+   "per_game_reads": [
+    [
+     5,
+     22500004
+    ],
+    [
+     8,
+     22500095
+    ],
+    [
+     7,
+     22500105
+    ],
+    [
+     7,
+     22500141
+    ],
+    [
+     11,
+     22500032
+    ],
+    [
+     13,
+     22500202
+    ],
+    [
+     2,
+     22500234
+    ],
+    [
+     8,
+     22500252
+    ],
+    [
+     8,
+     22500267
+    ],
+    [
+     7,
+     22500067
+    ],
+    [
+     18,
+     22500076
+    ],
+    [
+     7,
+     22500322
+    ],
+    [
+     1,
+     22500326
+    ],
+    [
+     4,
+     22500366
+    ],
+    [
+     6,
+     22501204
+    ],
+    [
+     16,
+     22501230
+    ],
+    [
+     1,
+     22500370
+    ],
+    [
+     1,
+     22500383
+    ],
+    [
+     5,
+     22500399
+    ],
+    [
+     7,
+     22500417
+    ],
+    [
+     8,
+     22500010
+    ],
+    [
+     19,
+     22500467
+    ],
+    [
+     9,
+     22500476
+    ],
+    [
+     4,
+     22500523
+    ],
+    [
+     9,
+     22500545
+    ],
+    [
+     5,
+     22500582
+    ],
+    [
+     5,
+     22500598
+    ],
+    [
+     3,
+     22500611
+    ],
+    [
+     3,
+     22500632
+    ],
+    [
+     16,
+     22500679
+    ],
+    [
+     3,
+     22500703
+    ],
+    [
+     4,
+     22500738
+    ],
+    [
+     2,
+     22500749
+    ],
+    [
+     16,
+     22500788
+    ],
+    [
+     2,
+     22500798
+    ],
+    [
+     4,
+     22500815
+    ],
+    [
+     6,
+     22500828
+    ],
+    [
+     15,
+     22500843
+    ],
+    [
+     25,
+     22500913
+    ],
+    [
+     1,
+     22500927
+    ],
+    [
+     7,
+     22500942
+    ],
+    [
+     3,
+     22500973
+    ],
+    [
+     14,
+     22500990
+    ],
+    [
+     11,
+     22501013
+    ],
+    [
+     1,
+     22501041
+    ],
+    [
+     4,
+     22501094
+    ],
+    [
+     3,
+     22501119
+    ],
+    [
+     4,
+     22501146
+    ],
+    [
+     6,
+     22501161
+    ],
+    [
+     2,
+     22501180
+    ]
+   ],
+   "answer_row": "G1",
+   "llm_calls": 161,
+   "seconds": 385.45
+  }
+ },
+ {
+  "id": "heldout-026",
+  "result": {
+   "answerable": true,
+   "status": "did not dress",
+   "reason": "injury/illness",
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22501194
+    },
+    {
+     "table": "availability_notes",
+     "note_id": 5347
+    }
+   ]
+  },
+  "trace": {
+   "plan": {
+    "focus_team_id": 1610612763,
+    "result": "any",
+    "min_margin": null,
+    "min_value": null,
+    "starters_only": false,
+    "bench_only": false,
+    "players_from": "focus",
+    "game_pick": "all",
+    "rank": "most",
+    "per_game": false,
+    "game_number": null,
+    "stat": "points",
+    "season_phase": null,
+    "venue": null
+   },
+   "teams": [
+    "Grizzlies",
+    "Rockets"
+   ],
+   "players": [
+    "GG Jackson"
+   ],
+   "window": [
+    "2026-04-12",
+    "2026-04-12"
+   ],
+   "games_matched": 1,
+   "retrieval": [],
+   "context": "Teams named: Grizzlies, Rockets\nPlayers named: GG Jackson\nGames matching the question: 1\nGames (by margin, largest first):\n[G1] 2026-04-12 Grizzlies at Rockets: Rockets beat Grizzlies 132-101 (margin 31); Grizzlies lost, opponent Rockets, Grizzlies regular game #82\nAvailability notes:\n[N1] availability note on GG Jackson for game 22501194 (status: did not dress): GG Jackson was ruled out for April 12, 2026 vs. the Rockets because of injury/illness.",
+   "model_reply": "{\n  \"row\": \"N1\",\n  \"quote\": \"GG Jackson was ruled out for April 12, 2026 vs. the Rockets because of injury/illness.\",\n  \"status\": \"did not dress\",\n  \"reason\": \"injury/illness\",\n  \"answerable\": true\n}",
+   "quote": "did not dress): GG Jackson was ruled out for April 12, 2026 vs. the Rockets because of injury/illness.",
+   "answer_row": "N1",
+   "llm_calls": 2,
+   "seconds": 5.99
+  }
+ },
+ {
+  "id": "heldout-027",
+  "result": {
+   "answerable": true,
+   "assists": 5,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500269
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500269,
+     "player_id": 203903
+    }
+   ]
+  },
+  "trace": {
+   "plan": {
+    "focus_team_id": 1610612753,
+    "result": "any",
+    "min_margin": null,
+    "min_value": null,
+    "starters_only": false,
+    "bench_only": false,
+    "players_from": "opponents",
+    "game_pick": "all",
+    "rank": "most",
+    "per_game": false,
+    "game_number": null,
+    "stat": "assists",
+    "season_phase": null,
+    "venue": null
+   },
+   "teams": [
+    "Magic"
+   ],
+   "players": [
+    "Jordan Clarkson"
+   ],
+   "window": [
+    "2025-11-22",
+    "2025-11-22"
+   ],
+   "games_matched": 1,
+   "retrieval": [],
+   "context": "Teams named: Magic\nPlayers named: Jordan Clarkson\nGames matching the question: 1\nGames (by margin, largest first):\n[G1] 2025-11-22 Knicks at Magic: Magic beat Knicks 133-121 (margin 12); Magic won, opponent Knicks, Magic regular game #17\nPlayers over those games (by total assists, largest first):\n[P1] Jordan Clarkson (Knicks): 1 games, 5 total assists, best game 5",
+   "answer_row": "P1",
+   "llm_calls": 1,
+   "seconds": 2.89
+  }
+ },
+ {
+  "id": "heldout-028",
+  "result": {
+   "answerable": true,
+   "winner": "Heat",
+   "score": "110-96",
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500257
+    }
+   ]
+  },
+  "trace": {
+   "plan": {
+    "focus_team_id": 1610612744,
+    "result": "any",
+    "min_margin": null,
+    "min_value": null,
+    "starters_only": false,
+    "bench_only": false,
+    "players_from": "focus",
+    "game_pick": "all",
+    "rank": "most",
+    "per_game": false,
+    "game_number": null,
+    "stat": "points",
+    "season_phase": null,
+    "venue": null
+   },
+   "teams": [
+    "Warriors",
+    "Heat"
+   ],
+   "players": [],
+   "window": [
+    "2025-11-19",
+    "2025-11-19"
+   ],
+   "games_matched": 1,
+   "retrieval": [],
+   "context": "Teams named: Warriors, Heat\nGames matching the question: 1\nGames (by margin, largest first):\n[G1] 2025-11-19 Warriors at Heat: Heat beat Warriors 110-96 (margin 14); Warriors lost, opponent Heat, Warriors regular game #17",
+   "answer_row": "G1",
+   "llm_calls": 1,
+   "seconds": 2.93
+  }
+ },
+ {
+  "id": "heldout-029",
+  "result": {
+   "answerable": true,
+   "player_name": "GG Jackson",
+   "rebounds": 11,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500890
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500890,
+     "player_id": 1641713
+    }
+   ]
+  },
+  "trace": {
+   "plan": {
+    "focus_team_id": 1610612763,
+    "result": "any",
+    "min_margin": null,
+    "min_value": null,
+    "starters_only": false,
+    "bench_only": false,
+    "players_from": "focus",
+    "game_pick": "all",
+    "rank": "most",
+    "per_game": false,
+    "game_number": null,
+    "stat": "rebounds",
+    "season_phase": null,
+    "venue": null
+   },
+   "teams": [
+    "Grizzlies",
+    "Timberwolves"
+   ],
+   "players": [],
+   "window": [
+    "2026-03-03",
+    "2026-03-03"
+   ],
+   "games_matched": 1,
+   "retrieval": [],
+   "context": "Teams named: Grizzlies, Timberwolves\nGames matching the question: 1\nGames (by margin, largest first):\n[G1] 2026-03-03 Grizzlies at Timberwolves: Timberwolves beat Grizzlies 117-110 (margin 7); Grizzlies lost, opponent Timberwolves, Grizzlies regular game #60\nPlayers over those games (by total rebounds, largest first):\n[P1] GG Jackson (Grizzlies): 1 games, 11 total rebounds, best game 11\n[P2] Rayan Rupert (Grizzlies): 1 games, 6 total rebounds, best game 6\n[P3] Ty Jerome (Grizzlies): 1 games, 4 total rebounds, best game 4\n[P4] Scotty Pippen Jr. (Grizzlies): 1 games, 3 total rebounds, best game 3\n[P5] Olivier-Maxence Prosper (Grizzlies): 1 games, 2 total rebounds, best game 2\n[P6] Cam Spencer (Grizzlies): 1 games, 2 total rebounds, best game 2\n[P7] Cedric Coward (Grizzlies): 1 games, 2 total rebounds, best game 2\n[P8] Taylor Hendricks (Grizzlies): 1 games, 1 total rebounds, best game 1",
+   "answer_row": "P1",
+   "llm_calls": 1,
+   "seconds": 2.88
+  }
+ },
+ {
+  "id": "heldout-030",
+  "result": {
+   "answerable": true,
+   "points": 6,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500083
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500083,
+     "player_id": 1628449
+    }
+   ]
+  },
+  "trace": {
+   "plan": {
+    "focus_team_id": 1610612738,
+    "result": "any",
+    "min_margin": null,
+    "min_value": null,
+    "starters_only": false,
+    "bench_only": false,
+    "players_from": "focus",
+    "game_pick": "first",
+    "rank": "most",
+    "per_game": false,
+    "game_number": null,
+    "stat": "points",
+    "season_phase": "regular",
+    "venue": null
+   },
+   "teams": [
+    "Celtics"
+   ],
+   "players": [
+    "Chris Boucher"
+   ],
+   "window": null,
+   "games_matched": 1,
+   "retrieval": [],
+   "context": "Teams named: Celtics\nPlayers named: Chris Boucher\nGames matching the question: 1\nGames (by margin, largest first):\n[G1] 2025-10-22 76ers at Celtics: 76ers beat Celtics 117-116 (margin 1); Celtics lost, opponent 76ers, Celtics regular game #1\nPlayers over those games (by total points, largest first):\n[P1] Chris Boucher (Celtics): 1 games, 6 total points, best game 6",
+   "answer_row": "P1",
+   "llm_calls": 1,
+   "seconds": 2.95
+  }
+ },
+ {
+  "id": "heldout-031",
+  "result": {
+   "answerable": true,
+   "assists": 17,
+   "games": 10,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500317
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500317,
+     "player_id": 1642346
+    },
+    {
+     "table": "games",
+     "game_id": 22500346
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500346,
+     "player_id": 1642346
+    },
+    {
+     "table": "games",
+     "game_id": 22500365
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500365,
+     "player_id": 1642346
+    },
+    {
+     "table": "games",
+     "game_id": 22500378
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500378,
+     "player_id": 1642346
+    },
+    {
+     "table": "games",
+     "game_id": 22500392
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500392,
+     "player_id": 1642346
+    },
+    {
+     "table": "games",
+     "game_id": 22500418
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500418,
+     "player_id": 1642346
+    },
+    {
+     "table": "games",
+     "game_id": 22500429
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500429,
+     "player_id": 1642346
+    },
+    {
+     "table": "games",
+     "game_id": 22500465
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500465,
+     "player_id": 1642346
+    },
+    {
+     "table": "games",
+     "game_id": 22501203
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501203,
+     "player_id": 1642346
+    },
+    {
+     "table": "games",
+     "game_id": 22501228
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501228,
+     "player_id": 1642346
+    }
+   ]
+  },
+  "trace": {
+   "plan": {
+    "focus_team_id": null,
+    "result": "any",
+    "min_margin": null,
+    "min_value": null,
+    "starters_only": false,
+    "bench_only": false,
+    "players_from": "both",
+    "game_pick": "all",
+    "rank": "most",
+    "per_game": false,
+    "game_number": null,
+    "stat": "assists",
+    "season_phase": "regular",
+    "venue": null
+   },
+   "teams": [],
+   "players": [
+    "Ryan Dunn"
+   ],
+   "window": [
+    "2025-12-01",
+    "2025-12-31"
+   ],
+   "games_matched": 10,
+   "retrieval": [],
+   "context": "Players named: Ryan Dunn\nGames matching the question: 10\nPlayers over those games (by total assists, largest first):\n[P1] Ryan Dunn (Suns): 10 games, 17 total assists, best game 4",
+   "answer_row": "P1",
+   "llm_calls": 1,
+   "seconds": 2.84
+  }
+ },
+ {
+  "id": "heldout-032",
+  "result": {
+   "answerable": true,
+   "opponent": "Hornets",
+   "margin": 30,
+   "score": "136-106",
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500991
+    }
+   ]
+  },
+  "trace": {
+   "plan": {
+    "focus_team_id": 1610612748,
+    "result": "loss",
+    "min_margin": null,
+    "min_value": null,
+    "starters_only": false,
+    "bench_only": false,
+    "players_from": "focus",
+    "game_pick": "all",
+    "rank": "most",
+    "per_game": false,
+    "game_number": null,
+    "stat": "points",
+    "season_phase": "regular",
+    "venue": null
+   },
+   "teams": [
+    "Heat"
+   ],
+   "players": [],
+   "window": null,
+   "games_matched": 39,
+   "retrieval": [],
+   "context": "Teams named: Heat\nGames matching the question: 39\nGames (by margin, largest first):\n[G1] 2026-03-17 Heat at Hornets: Hornets beat Heat 136-106 (margin 30); Heat lost, opponent Hornets, Heat regular game #69\n[G2] 2026-01-06 Heat at Timberwolves: Timberwolves beat Heat 122-94 (margin 28); Heat lost, opponent Timberwolves, Heat regular game #37\n[G3] 2026-04-07 Heat at Raptors: Raptors beat Heat 121-95 (margin 26); Heat lost, opponent Raptors, Heat regular game #79\n[G4] 2026-03-23 Spurs at Heat: Spurs beat Heat 136-111 (margin 25); Heat lost, opponent Spurs, Heat regular game #72\n[G5] 2026-01-10 Heat at Pacers: Pacers beat Heat 123-99 (margin 24); Heat lost, opponent Pacers, Heat regular game #38\n[G6] 2026-01-19 Heat at Warriors: Warriors beat Heat 135-112 (margin 23); Heat lost, opponent Warriors, Heat regular game #43\n[G7] 2025-12-23 Raptors at Heat: Raptors beat Heat 112-91 (margin 21); Heat lost, opponent Raptors, Heat regular game #30\n[G8] 2026-03-27 Heat at Cavaliers: Cavaliers beat Heat 149-128 (margin 21); Heat lost, opponent Cavaliers, Heat regular game #74",
+   "answer_row": "G1",
+   "llm_calls": 1,
+   "seconds": 2.94
+  }
+ },
+ {
+  "id": "heldout-033",
+  "result": {
+   "answerable": true,
+   "player_name": "Victor Wembanyama",
+   "points": 42,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500568
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500568,
+     "player_id": 1641705
+    },
+    {
+     "table": "games",
+     "game_id": 22500868
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500868,
+     "player_id": 1641705
+    }
+   ]
+  },
+  "trace": {
+   "plan": {
+    "focus_team_id": 1610612759,
+    "result": "loss",
+    "min_margin": 15,
+    "min_value": null,
+    "starters_only": true,
+    "bench_only": false,
+    "players_from": "focus",
+    "game_pick": "all",
+    "rank": "most",
+    "per_game": false,
+    "game_number": null,
+    "stat": "points",
+    "season_phase": "regular",
+    "venue": null
+   },
+   "teams": [
+    "Spurs"
+   ],
+   "players": [],
+   "window": null,
+   "games_matched": 2,
+   "retrieval": [],
+   "context": "Teams named: Spurs\nGames matching the question: 2\nGames (by margin, largest first):\n[G1] 2026-03-01 Spurs at Knicks: Knicks beat Spurs 114-89 (margin 25); Spurs lost, opponent Knicks, Spurs regular game #60\n[G2] 2026-01-13 Spurs at Thunder: Thunder beat Spurs 119-98 (margin 21); Spurs lost, opponent Thunder, Spurs regular game #40\nPlayers over those games (by total points, largest first):\n[P1] Victor Wembanyama (Spurs): 2 games, 42 total points, best game 25\n[P2] Stephon Castle (Spurs): 2 games, 33 total points, best game 20\n[P3] De'Aaron Fox (Spurs): 2 games, 21 total points, best game 14\n[P4] Devin Vassell (Spurs): 1 games, 18 total points, best game 18\n[P5] Julian Champagnie (Spurs): 2 games, 16 total points, best game 13\n[P6] Harrison Barnes (Spurs): 1 games, 2 total points, best game 2",
+   "answer_row": "P1",
+   "llm_calls": 1,
+   "seconds": 2.9
+  }
+ },
+ {
+  "id": "heldout-034",
+  "result": {
+   "answerable": true,
+   "player_name": "Jalen Brunson",
+   "games": 4,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500215
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500215,
+     "player_id": 1628973
+    },
+    {
+     "table": "games",
+     "game_id": 22500269
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500269,
+     "player_id": 1628973
+    },
+    {
+     "table": "games",
+     "game_id": 22500357
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500357,
+     "player_id": 1628973
+    },
+    {
+     "table": "games",
+     "game_id": 22501229
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501229,
+     "player_id": 1628973
+    }
+   ]
+  },
+  "trace": {
+   "plan": {
+    "focus_team_id": 1610612753,
+    "result": "any",
+    "min_margin": null,
+    "min_value": 30,
+    "starters_only": false,
+    "bench_only": false,
+    "players_from": "opponents",
+    "game_pick": "all",
+    "rank": "most",
+    "per_game": false,
+    "game_number": null,
+    "stat": "points",
+    "season_phase": "regular",
+    "venue": null
+   },
+   "teams": [
+    "Magic"
+   ],
+   "players": [],
+   "window": null,
+   "games_matched": 82,
+   "retrieval": [],
+   "context": "Teams named: Magic\nGames matching the question: 82\nPlayers over those games (by games with 30+ points, largest first):\n[P1] Jalen Brunson (Knicks): 4 games, 134 total points, best game 40, 4 games with 30+ points\n[P2] Donovan Mitchell (Cavaliers): 4 games, 148 total points, best game 45, 3 games with 30+ points\n[P3] Kevin Durant (Rockets): 2 games, 75 total points, best game 40, 2 games with 30+ points\n[P4] Nickeil Alexander-Walker (Hawks): 4 games, 112 total points, best game 41, 2 games with 30+ points\n[P5] Pascal Siakam (Pacers): 3 games, 97 total points, best game 37, 2 games with 30+ points\n[P6] Cade Cunningham (Pistons): 3 games, 98 total points, best game 39, 2 games with 30+ points\n[P7] Jaylen Brown (Celtics): 3 games, 94 total points, best game 35, 2 games with 30+ points\n[P8] James Harden (Cavaliers/Clippers): 3 games, 87 total points, best game 31, 2 games with 30+ points",
+   "answer_row": "P1",
+   "llm_calls": 1,
+   "seconds": 2.98
+  }
+ },
+ {
+  "id": "heldout-035",
+  "result": {
+   "answerable": true,
+   "points": 255,
+   "games": 27,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500797
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500797,
+     "player_id": 1642265
+    },
+    {
+     "table": "games",
+     "game_id": 22500814
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500814,
+     "player_id": 1642265
+    },
+    {
+     "table": "games",
+     "game_id": 22500825
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500825,
+     "player_id": 1642265
+    },
+    {
+     "table": "games",
+     "game_id": 22500836
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500836,
+     "player_id": 1642265
+    },
+    {
+     "table": "games",
+     "game_id": 22500853
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500853,
+     "player_id": 1642265
+    },
+    {
+     "table": "games",
+     "game_id": 22500870
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500870,
+     "player_id": 1642265
+    },
+    {
+     "table": "games",
+     "game_id": 22500889
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500889,
+     "player_id": 1642265
+    },
+    {
+     "table": "games",
+     "game_id": 22500905
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500905,
+     "player_id": 1642265
+    },
+    {
+     "table": "games",
+     "game_id": 22500930
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500930,
+     "player_id": 1642265
+    },
+    {
+     "table": "games",
+     "game_id": 22500943
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500943,
+     "player_id": 1642265
+    },
+    {
+     "table": "games",
+     "game_id": 22500960
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500960,
+     "player_id": 1642265
+    },
+    {
+     "table": "games",
+     "game_id": 22500968
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500968,
+     "player_id": 1642265
+    },
+    {
+     "table": "games",
+     "game_id": 22500987
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500987,
+     "player_id": 1642265
+    },
+    {
+     "table": "games",
+     "game_id": 22501002
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501002,
+     "player_id": 1642265
+    },
+    {
+     "table": "games",
+     "game_id": 22501011
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501011,
+     "player_id": 1642265
+    },
+    {
+     "table": "games",
+     "game_id": 22501042
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501042,
+     "player_id": 1642265
+    },
+    {
+     "table": "games",
+     "game_id": 22501053
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501053,
+     "player_id": 1642265
+    },
+    {
+     "table": "games",
+     "game_id": 22501070
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501070,
+     "player_id": 1642265
+    },
+    {
+     "table": "games",
+     "game_id": 22501079
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501079,
+     "player_id": 1642265
+    },
+    {
+     "table": "games",
+     "game_id": 22501094
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501094,
+     "player_id": 1642265
+    },
+    {
+     "table": "games",
+     "game_id": 22501109
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501109,
+     "player_id": 1642265
+    },
+    {
+     "table": "games",
+     "game_id": 22501123
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501123,
+     "player_id": 1642265
+    },
+    {
+     "table": "games",
+     "game_id": 22501134
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501134,
+     "player_id": 1642265
+    },
+    {
+     "table": "games",
+     "game_id": 22501148
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501148,
+     "player_id": 1642265
+    },
+    {
+     "table": "games",
+     "game_id": 22501166
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501166,
+     "player_id": 1642265
+    },
+    {
+     "table": "games",
+     "game_id": 22501177
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501177,
+     "player_id": 1642265
+    },
+    {
+     "table": "games",
+     "game_id": 22501193
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501193,
+     "player_id": 1642265
+    }
+   ]
+  },
+  "trace": {
+   "plan": {
+    "focus_team_id": null,
+    "result": "any",
+    "min_margin": null,
+    "min_value": null,
+    "starters_only": false,
+    "bench_only": false,
+    "players_from": "both",
+    "game_pick": "all",
+    "rank": "most",
+    "per_game": false,
+    "game_number": null,
+    "stat": "points",
+    "season_phase": "regular",
+    "venue": null
+   },
+   "teams": [],
+   "players": [
+    "Rob Dillingham"
+   ],
+   "window": [
+    "2026-02-19",
+    "2026-04-12"
+   ],
+   "games_matched": 27,
+   "retrieval": [],
+   "context": "Players named: Rob Dillingham\nGames matching the question: 27\nPlayers over those games (by total points, largest first):\n[P1] Rob Dillingham (Bulls): 27 games, 255 total points, best game 26",
+   "answer_row": "P1",
+   "llm_calls": 1,
+   "seconds": 2.91
+  }
+ },
+ {
+  "id": "heldout-036",
+  "result": {
+   "answerable": true,
+   "player_name": "Oscar Tshiebwe",
+   "rebounds": 22,
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22501181
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22501181,
+     "player_id": 1631131
+    }
+   ]
+  },
+  "trace": {
+   "plan": {
+    "focus_team_id": 1610612763,
+    "result": "any",
+    "min_margin": null,
+    "min_value": null,
+    "starters_only": false,
+    "bench_only": false,
+    "players_from": "opponents",
+    "game_pick": "all",
+    "rank": "most",
+    "per_game": true,
+    "game_number": null,
+    "stat": "rebounds",
+    "season_phase": "regular",
+    "venue": null
+   },
+   "teams": [
+    "Grizzlies"
+   ],
+   "players": [],
+   "window": null,
+   "games_matched": 82,
+   "retrieval": [],
+   "context": "Teams named: Grizzlies\nGames matching the question: 82\nPlayers over those games (by best single game rebounds, largest first):\n[P1] Oscar Tshiebwe (Jazz): 2 games, 28 total rebounds, best game 22 on 2026-04-10\n[P2] Moussa Diabate (Hornets): 2 games, 33 total rebounds, best game 19 on 2026-01-28\n[P3] Donovan Clingan (Trail Blazers): 3 games, 45 total rebounds, best game 19 on 2026-02-07\n[P4] Jusuf Nurkic (Jazz): 1 games, 17 total rebounds, best game 17 on 2025-12-12\n[P5] Rudy Gobert (Timberwolves): 4 games, 54 total rebounds, best game 16 on 2025-12-17\n[P6] Nikola Jokic (Nuggets): 4 games, 55 total rebounds, best game 16 on 2026-04-08\n[P7] Alperen Sengun (Rockets): 3 games, 33 total rebounds, best game 16 on 2025-11-05\n[P8] Jabari Smith Jr. (Rockets): 3 games, 28 total rebounds, best game 16 on 2026-03-27",
+   "answer_row": "P1",
+   "llm_calls": 1,
+   "seconds": 2.89
+  }
+ },
+ {
+  "id": "heldout-037",
+  "result": {
+   "answerable": true,
+   "player_name": "Derrick White",
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500741
+    },
+    {
+     "table": "recaps",
+     "recap_id": 770
+    },
+    {
+     "table": "box_scores",
+     "game_id": 22500741,
+     "player_id": 1628401
+    }
+   ]
+  },
+  "trace": {
+   "plan": {
+    "focus_team_id": 1610612738,
+    "result": "any",
+    "min_margin": null,
+    "min_value": null,
+    "starters_only": false,
+    "bench_only": false,
+    "players_from": "focus",
+    "game_pick": "all",
+    "rank": "most",
+    "per_game": false,
+    "game_number": null,
+    "stat": "points",
+    "season_phase": null,
+    "venue": null
+   },
+   "teams": [
+    "Celtics",
+    "Heat"
+   ],
+   "players": [],
+   "window": [
+    "2026-02-06",
+    "2026-02-06"
+   ],
+   "games_matched": 1,
+   "retrieval": [],
+   "context": "Teams named: Celtics, Heat\nGames matching the question: 1\nGames (by margin, largest first):\n[G1] 2026-02-06 Heat at Celtics: Celtics beat Heat 98-96 (margin 2); Celtics won, opponent Heat, Celtics regular game #52\nPlayers over those games (by total points, largest first):\n[P1] Jaylen Brown (Celtics): 1 games, 29 total points, best game 29\n[P2] Payton Pritchard (Celtics): 1 games, 24 total points, best game 24\n[P3] Derrick White (Celtics): 1 games, 21 total points, best game 21\n[P4] Nikola Vucevic (Celtics): 1 games, 11 total points, best game 11\n[P5] Baylor Scheierman (Celtics): 1 games, 5 total points, best game 5\n[P6] Neemias Queta (Celtics): 1 games, 2 total points, best game 2\n[P7] Luka Garza (Celtics): 1 games, 2 total points, best game 2\n[P8] Sam Hauser (Celtics): 1 games, 2 total points, best game 2\nRecaps:\n[R1] recap of game 22500741: On February 6, 2026, the Boston Celtics beat the Miami Heat 98-96 at home. At the break it was Heat 59, Celtics 38. Down by as many as 22, the Celtics came back to win. The Celtics' biggest lead was 5. White hit the go-ahead 3-pointer with 1:31 left in the fourth quarter. There were 5 lead changes and 6 ties. Jaylen Brown led the Celtics with 29 points. For the Heat, Andrew Wiggins had 26 points.",
+   "model_reply": "{\n  \"row\": \"R1\",\n  \"quote\": \"White hit the go-ahead 3-pointer with 1:31 left in the fourth quarter.\",\n  \"player_name\": \"Jaylen Brown\",\n  \"answerable\": true\n}",
+   "quote": "White hit the go-ahead 3-pointer with 1:31 left in the fourth quarter.",
+   "name_taken_from_quote": true,
+   "answer_row": "R1",
+   "llm_calls": 2,
+   "seconds": 5.78
+  }
+ },
+ {
+  "id": "heldout-038",
+  "result": {
+   "answerable": true,
+   "opponent": "Hornets",
+   "deficit": 11,
+   "score": "116-103",
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22500312
+    },
+    {
+     "table": "recaps",
+     "recap_id": 303
+    }
+   ]
+  },
+  "trace": {
+   "plan": {
+    "focus_team_id": 1610612751,
+    "result": "win",
+    "min_margin": null,
+    "min_value": null,
+    "starters_only": false,
+    "bench_only": false,
+    "players_from": "focus",
+    "game_pick": "all",
+    "rank": "most",
+    "per_game": false,
+    "game_number": null,
+    "stat": "points",
+    "season_phase": "regular",
+    "venue": null
+   },
+   "teams": [
+    "Nets"
+   ],
+   "players": [],
+   "window": null,
+   "games_matched": 20,
+   "retrieval": [],
+   "context": "Teams named: Nets\nGames matching the question: 20\nGames (by margin, largest first):\n[G1] 2025-12-14 Bucks at Nets: Nets beat Bucks 127-82 (margin 45); Nets won, opponent Bucks, Nets regular game #25\n[G2] 2025-11-16 Nets at Wizards: Nets beat Wizards 129-106 (margin 23); Nets won, opponent Wizards, Nets regular game #13\n[G3] 2025-12-06 Pelicans at Nets: Nets beat Pelicans 119-101 (margin 18); Nets won, opponent Pelicans, Nets regular game #23\n[G4] 2026-03-29 Kings at Nets: Nets beat Kings 116-99 (margin 17); Nets won, opponent Kings, Nets regular game #75\n[G5] 2025-12-27 Nets at Timberwolves: Nets beat Timberwolves 123-107 (margin 16); Nets won, opponent Timberwolves, Nets regular game #29\n[G6] 2025-12-21 Raptors at Nets: Nets beat Raptors 96-81 (margin 15); Nets won, opponent Raptors, Nets regular game #27\n[G7] 2026-02-07 Wizards at Nets: Nets beat Wizards 127-113 (margin 14); Nets won, opponent Wizards, Nets regular game #51\n[G8] 2025-12-01 Hornets at Nets: Nets beat Hornets 116-103 (margin 13); Nets won, opponent Hornets, Nets regular game #20\n[answer read from recap 303]",
+   "per_game_reads": [
+    [
+     8,
+     22500173
+    ],
+    [
+     6,
+     22500235
+    ],
+    [
+     11,
+     22500312
+    ],
+    [
+     5,
+     22500397
+    ],
+    [
+     7,
+     22500410
+    ],
+    [
+     7,
+     22500439
+    ],
+    [
+     2,
+     22500747
+    ],
+    [
+     6,
+     22500762
+    ],
+    [
+     10,
+     22500932
+    ],
+    [
+     4,
+     22501133
+    ],
+    [
+     9,
+     22501150
+    ]
+   ],
+   "answer_row": "G1",
+   "llm_calls": 56,
+   "seconds": 134.86
+  }
+ },
+ {
+  "id": "heldout-039",
+  "result": {
+   "answerable": true,
+   "status": "did not dress",
+   "reason": "injury/illness",
+   "evidence": [
+    {
+     "table": "games",
+     "game_id": 22501124
+    },
+    {
+     "table": "availability_notes",
+     "note_id": 4980
+    }
+   ]
+  },
+  "trace": {
+   "plan": {
+    "focus_team_id": 1610612762,
+    "result": "any",
+    "min_margin": null,
+    "min_value": null,
+    "starters_only": false,
+    "bench_only": false,
+    "players_from": "focus",
+    "game_pick": "all",
+    "rank": "most",
+    "per_game": false,
+    "game_number": null,
+    "stat": "points",
+    "season_phase": null,
+    "venue": null
+   },
+   "teams": [
+    "Jazz",
+    "Rockets"
+   ],
+   "players": [
+    "Elijah Harkless"
+   ],
+   "window": [
+    "2026-04-03",
+    "2026-04-03"
+   ],
+   "games_matched": 1,
+   "retrieval": [],
+   "context": "Teams named: Jazz, Rockets\nPlayers named: Elijah Harkless\nGames matching the question: 1\nGames (by margin, largest first):\n[G1] 2026-04-03 Jazz at Rockets: Rockets beat Jazz 140-106 (margin 34); Jazz lost, opponent Rockets, Jazz regular game #78\nAvailability notes:\n[N1] availability note on Elijah Harkless for game 22501124 (status: did not dress): Elijah Harkless was ruled out for April 3, 2026 vs. the Rockets because of injury/illness.",
+   "model_reply": "{\n  \"row\": \"N1\",\n  \"quote\": \"Elijah Harkless was ruled out for April 3, 2026 vs. the Rockets because of injury/illness.\",\n  \"status\": \"did not dress\",\n  \"reason\": \"injury/illness\",\n  \"answerable\": true\n}",
+   "quote": "did not dress): Elijah Harkless was ruled out for April 3, 2026 vs. the Rockets because of injury/illness.",
+   "answer_row": "N1",
+   "llm_calls": 2,
+   "seconds": 6.02
+  }
+ },
+ {
+  "id": "heldout-040",
+  "result": {
+   "answerable": false,
+   "points": 0,
+   "evidence": []
+  },
+  "trace": {
+   "plan": {
+    "focus_team_id": 1610612746,
+    "result": "any",
+    "min_margin": null,
+    "min_value": null,
+    "starters_only": false,
+    "bench_only": false,
+    "players_from": "opponents",
+    "game_pick": "all",
+    "rank": "most",
+    "per_game": false,
+    "game_number": null,
+    "stat": "points",
+    "season_phase": null,
+    "venue": null
+   },
+   "teams": [
+    "Clippers"
+   ],
+   "players": [
+    "Draymond Green"
+   ],
+   "window": [
+    "2026-04-12",
+    "2026-04-12"
+   ],
+   "games_matched": 1,
+   "retrieval": [],
+   "abstain_reason": "the named player has no box score in the matching games",
+   "llm_calls": 1,
+   "seconds": 2.87
+  }
+ },
+ {
+  "id": "heldout-041",
+  "result": {
+   "answerable": false,
+   "winner": "",
+   "score": "",
+   "evidence": []
+  },
+  "trace": {
+   "plan": {
+    "focus_team_id": 1610612758,
+    "result": "any",
+    "min_margin": null,
+    "min_value": null,
+    "starters_only": false,
+    "bench_only": false,
+    "players_from": "focus",
+    "game_pick": "all",
+    "rank": "most",
+    "per_game": false,
+    "game_number": null,
+    "stat": "points",
+    "season_phase": null,
+    "venue": null
+   },
+   "teams": [
+    "Kings",
+    "Grizzlies"
+   ],
+   "players": [],
+   "window": [
+    "2026-02-05",
+    "2026-02-05"
+   ],
+   "games_matched": 0,
+   "retrieval": [],
+   "abstain_reason": "no games match the question's teams, dates and filters",
+   "llm_calls": 1,
+   "seconds": 2.98
+  }
+ },
+ {
+  "id": "heldout-042",
+  "result": {
+   "answerable": false,
+   "points": 0,
+   "evidence": []
+  },
+  "trace": {
+   "plan": {
+    "focus_team_id": 1610612765,
+    "result": "any",
+    "min_margin": null,
+    "min_value": null,
+    "starters_only": false,
+    "bench_only": false,
+    "players_from": "focus",
+    "game_pick": "first",
+    "rank": "most",
+    "per_game": false,
+    "game_number": null,
+    "stat": "points",
+    "season_phase": "regular",
+    "venue": null
+   },
+   "teams": [
+    "Pistons"
+   ],
+   "players": [
+    "Chaz Lanier"
+   ],
+   "window": null,
+   "games_matched": 1,
+   "retrieval": [],
+   "abstain_reason": "the named player has no box score in the matching games",
+   "llm_calls": 1,
+   "seconds": 2.97
+  }
+ },
+ {
+  "id": "heldout-043",
+  "result": {
+   "answerable": false,
+   "status": "",
+   "reason": "",
+   "evidence": []
+  },
+  "trace": {
+   "plan": {
+    "focus_team_id": 1610612757,
+    "result": "any",
+    "min_margin": null,
+    "min_value": null,
+    "starters_only": false,
+    "bench_only": false,
+    "players_from": "focus",
+    "game_pick": "all",
+    "rank": "most",
+    "per_game": false,
+    "game_number": null,
+    "stat": "points",
+    "season_phase": null,
+    "venue": null
+   },
+   "teams": [
+    "Trail Blazers",
+    "Bucks"
+   ],
+   "players": [
+    "Kris Murray"
+   ],
+   "window": [
+    "2025-11-24",
+    "2025-11-24"
+   ],
+   "games_matched": 1,
+   "retrieval": [],
+   "context": "Teams named: Trail Blazers, Bucks\nPlayers named: Kris Murray\nGames matching the question: 1\nGames (by margin, largest first):\n[G1] 2025-11-24 Trail Blazers at Bucks: Trail Blazers beat Bucks 115-103 (margin 12); Trail Blazers won, opponent Bucks, Trail Blazers regular game #18",
+   "abstain_reason": "no recap or availability note covers the matching games",
+   "llm_calls": 1,
+   "seconds": 2.87
+  }
+ },
+ {
+  "id": "heldout-044",
+  "result": {
+   "answerable": false,
+   "points": 0,
+   "evidence": []
+  },
+  "trace": {
+   "plan": {
+    "focus_team_id": 1610612759,
+    "result": "any",
+    "min_margin": null,
+    "min_value": null,
+    "starters_only": false,
+    "bench_only": false,
+    "players_from": "opponents",
+    "game_pick": "all",
+    "rank": "most",
+    "per_game": false,
+    "game_number": null,
+    "stat": "points",
+    "season_phase": null,
+    "venue": null
+   },
+   "teams": [
+    "Spurs"
+   ],
+   "players": [],
+   "window": [
+    "2025-11-14",
+    "2025-11-14"
+   ],
+   "games_matched": 0,
+   "retrieval": [],
+   "abstain_reason": "no player named Landry Williams in this season's data",
+   "llm_calls": 1,
+   "seconds": 2.96
+  }
+ }
+]
