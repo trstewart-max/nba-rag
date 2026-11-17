@@ -4,7 +4,7 @@
 
 A local retrieval-augmented generation pipeline over real NBA box scores and play-by-play. It uses Postgres + pgvector for retrieval and a 2B-parameter model (`qwen3.5:2b` via Ollama) for the judgment calls. Python does all the counting, and every answer is checked against the rows it cites before it's returned.
 
-**[Live results explorer →](https://trstewart-max.github.io/nba-rag/)**: every evaluated question with its answer, gold answer, cited evidence, and the exact context the model saw.
+**[Live results explorer →](https://trstewart-max.github.io/nba-rag/)**: every evaluated question with its answer, gold answer, cited evidence, and the exact context the model saw. To ask your own questions, [run it locally](#quickstart); the same page then gets a live **Ask** box.
 
 <!-- RESULTS:START -->
 | Question set | Questions | Accuracy | Wrong | Abstained wrongly | Answered the unanswerable | Evidence recall |

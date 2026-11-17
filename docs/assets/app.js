@@ -19,6 +19,15 @@ const SPLIT = {
   dev: { title: "Dev set", note: "developed against" },
 };
 
+// Questions from the test set that the pipeline answers correctly, with the answer kind each uses.
+const EXAMPLES = [
+  ["Heat vs. Wizards on Feb 8: what was the final score, and which team won?", "game_result"],
+  ["Who paced the Clippers in points when they beat the Wizards on Jan 14, and with how many?", "leader"],
+  ["Who put the Thunder ahead for good in their 113-105 win over the Timberwolves on Nov 26?", "recap_play"],
+  ["De'Anthony Melton didn't play for the Warriors against the Thunder on Mar 7. Why?", "availability"],
+  ["Who did the Nuggets beat by the most points this season, by how much, and what was the score?", "margin"],
+];
+
 let DATA = null;
 const state = { split: "all", tier: "all", outcome: "all", q: "" };
 
@@ -119,12 +128,39 @@ function renderExplorer() {
   renderCards();
 }
 
+function renderRunGuide() {
+  $("#examples-static").innerHTML = EXAMPLES.map(([q, k]) => `<li><span>${esc(q)}</span><span class="tag">${esc(k)}</span></li>`).join("");
+  const os = /win/i.test(navigator.userAgentData?.platform || navigator.platform || "") ? "win" : "unix";
+  const pick = (v) => {
+    document.querySelectorAll(".os-chips .chip").forEach((c) => c.setAttribute("aria-pressed", c.dataset.os === v));
+    document.querySelectorAll(".codeblock[data-os]").forEach((b) => (b.hidden = b.dataset.os !== v));
+  };
+  pick(os);
+  document.querySelector(".os-chips").onclick = (e) => { const c = e.target.closest(".chip"); if (c) pick(c.dataset.os); };
+  document.querySelectorAll(".copy").forEach((btn) => (btn.onclick = async () => {
+    try {
+      await navigator.clipboard.writeText(btn.parentElement.querySelector("code").innerText.trim());
+      btn.textContent = "Copied";
+    } catch { btn.textContent = "Select & copy"; }
+    setTimeout(() => (btn.textContent = "Copy"), 1500);
+  }));
+}
+
 async function enableLive() {
   try {
     const r = await fetch("api/health", { cache: "no-store" });
     if (!r.ok) return;
     const h = await r.json();
     document.querySelectorAll(".live-only").forEach((el) => (el.hidden = false));
+    document.querySelectorAll(".static-only").forEach((el) => (el.hidden = true));
+    $("#examples-live").innerHTML = EXAMPLES.map(([q, k]) => `<button class="chip" type="button" data-kind="${k}">${esc(q)}</button>`).join("");
+    $("#examples-live").onclick = (e) => {
+      const c = e.target.closest(".chip");
+      if (!c) return;
+      $("#ask-input").value = c.textContent;
+      $("#ask-kind").value = c.dataset.kind;
+      $("#ask-form").requestSubmit();
+    };
     $("#ask-kind").innerHTML += Object.entries(h.shapes).map(([k, d]) => `<option value="${k}">${esc(k)}: ${esc(d)}</option>`).join("");
     $("#ask-form").onsubmit = async (e) => {
       e.preventDefault();
@@ -150,7 +186,11 @@ async function enableLive() {
 
 fetch("data/results.json").then((r) => r.json()).then((d) => {
   DATA = d;
-  if (d.repo_url) $("#repo-link").href = d.repo_url;
+  if (d.repo_url) {
+    document.querySelectorAll(".repo-link").forEach((a) => (a.href = d.repo_url));
+    document.querySelectorAll(".repo-git").forEach((s) => (s.textContent = `${d.repo_url}.git`));
+  }
   renderMetrics(); renderResults(); renderExplorer();
 }).catch(() => { $("#metrics").innerHTML = `<p class="meta">Run <code>python -m eval.export_site</code> to generate data/results.json.</p>`; });
+renderRunGuide();
 enableLive();
